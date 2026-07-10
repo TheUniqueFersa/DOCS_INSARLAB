@@ -1,0 +1,3483 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [
+        "Templatesss/ENTHRALL.template.md",
+        "Templatesss/GYM - sesión.template.md",
+        "Templatesss/Registro de Detonación.template.md",
+        "Templatesss/♠BO - sesion.template.md",
+        "Templatesss/♠BO.L - P - s () {}.template.md"
+      ],
+      "isDefault": true,
+      "dataSource": {
+        "kind": "dataview",
+        "config": {
+          "query": "TABLE file.frontmatter.próxima_fecha as próxima_fecha, file.frontmatter.fecha as fecha\nWHERE file.frontmatter.próxima_fecha OR file.frontmatter.fecha"
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "interval": "month"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "b18259b3-86e0-4190-b800-f91bc2d99359",
+          "name": "--SCHEDULE -- ",
+          "type": "calendar"
+        },
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "e4d3c82d-e14e-40ff-b818-ab74a4ee8dc5",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "20ed2b47-2979-41f3-9610-19d192eee079",
+      "name": "Fuerte"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "tag",
+        "config": {
+          "tag": "#PROW",
+          "hierarchy": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "coverField": "image"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "tags",
+                "operator": "has-keyword",
+                "enabled": true,
+                "value": "Git"
+              },
+              {
+                "field": "name",
+                "operator": "is-not-empty",
+                "enabled": true
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "tipo",
+                "order": "asc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "a1bc54c6-60b6-4954-9821-c37d107e58e1",
+          "name": "Git - GitHub",
+          "type": "gallery"
+        },
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "9d5e67db-9145-409a-b5b0-298522867e65",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "a73fd306-687d-4cf7-8077-2f038fa1f5a8",
+      "name": "PROGRAMACIÓN WEB"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "tag",
+        "config": {
+          "tag": "#EDAII_ARBOLES",
+          "hierarchy": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "interval": "month"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "5ae84220-571c-4801-9b83-262c129ec4ae",
+          "name": "Calendarización del proyecto",
+          "type": "calendar"
+        },
+        {
+          "config": {
+            "groupByField": "estado"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "61342f0c-c83d-4b06-a35a-a0069ca98246",
+          "name": "KANBAN",
+          "type": "board"
+        },
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "a0edf348-379f-450b-baa6-35af58ffb67c",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "ea9b51ed-8699-4aff-8354-726d23f49c4e",
+      "name": "EDAII: ÁRBOLES"
+    },
+    {
+      "fieldConfig": {
+        "estado": {
+          "options": [
+            "En ejecución",
+            "Concluido",
+            "Planeación"
+          ]
+        }
+      },
+      "defaultName": "♠BO.L - P - s () { {{date:DD-MM-YYYY}} }",
+      "templates": [
+        "Templatesss/♠BO.L - P - s () {}.template.md",
+        "Templatesss/♠BO.PF - P - s () {} Proyecto fugaz.template.md",
+        "Templatesss/♠BO.PROC.L - sesión.template.md",
+        "Templatesss/♠BO.PROC.PS - sesión.template.md",
+        "Templatesss/♠BO.PROC.RP - sesión.template.md",
+        "Templatesss/♠BO.PROC.C - sesión.template.md",
+        "Templatesss/♠BO - sesion.template.md"
+      ],
+      "excludedNotes": [
+        "Templatesss/♠BO.PF - P - s () {} Proyecto fugaz.template.md",
+        "Templatesss/♠BO.L - P - s () {}.template.md"
+      ],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "tag",
+        "config": {
+          "tag": "#PJunior",
+          "hierarchy": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "tipo_nota",
+                "operator": "is",
+                "enabled": true,
+                "value": "Sesión"
+              },
+              {
+                "field": "name",
+                "operator": "is-not-empty",
+                "enabled": true,
+                "value": ""
+              }
+            ]
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#64c466",
+                "condition": {
+                  "field": "terminado",
+                  "operator": "is-checked",
+                  "enabled": true
+                }
+              },
+              {
+                "color": "#eb4d3d",
+                "condition": {
+                  "field": "terminado",
+                  "operator": "is-not-checked",
+                  "enabled": true
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "f284ce39-27fe-4dcf-9f91-3c9bb3883a90",
+          "name": "SESIONES",
+          "type": "gallery"
+        },
+        {
+          "config": {
+            "interval": "month",
+            "dateField": "fecha",
+            "checkField": "terminado"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#00a1d8",
+                "condition": {
+                  "field": "lenguaje",
+                  "operator": "has-keyword",
+                  "enabled": true,
+                  "value": "Python"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "7181233a-de97-4262-a132-9526df6415f5",
+          "name": "Calendarios BOs",
+          "type": "calendar"
+        },
+        {
+          "config": {
+            "groupByField": "estado",
+            "columns": {
+              "En ejecución": {
+                "weight": 0
+              },
+              "Concluido": {
+                "weight": 1
+              },
+              "Planeación": {
+                "weight": 2
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "tipo_nota",
+                "operator": "is",
+                "enabled": true,
+                "value": "Sesión"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "fecha",
+                "order": "desc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "d9c5fcef-bb4e-4e3f-a475-1d8d4a93ec21",
+          "name": "ESTADOS",
+          "type": "board"
+        },
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "d2eecbf2-8d92-4885-9c43-1ca150adb28d",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "1b1e4fcf-78a8-4bab-b500-d3c37b91a5a6",
+      "name": "♠T - Programador Junior"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [
+        "Templatesss/♣Platzi M - ‼Essentia.template.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "♦SuferBrainstorming/1'S/Sector Mision/♣Platzi master",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "coverField": "image",
+            "includeFields": [
+              "Calificación",
+              "Incompleto",
+              "próxima_fecha",
+              "Ruta",
+              "terminado"
+            ]
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "tipo_nota",
+                "operator": "is",
+                "enabled": true,
+                "value": "Essentia"
+              },
+              {
+                "field": "terminado",
+                "operator": "is-not-checked",
+                "enabled": true
+              }
+            ]
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#f7ce46",
+                "condition": {
+                  "field": "LIGHTVOLT",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "3"
+                }
+              },
+              {
+                "color": "#eb4d3d",
+                "condition": {
+                  "field": "LIGHTVOLT",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "5"
+                }
+              },
+              {
+                "color": "#e292fe",
+                "condition": {
+                  "field": "Materia",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "English"
+                }
+              },
+              {
+                "color": "#ffffff",
+                "condition": {
+                  "field": "LIGHTVOLT",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "6"
+                }
+              },
+              {
+                "color": "#01c7fc",
+                "condition": {
+                  "field": "LIGHTVOLT",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "1"
+                }
+              },
+              {
+                "color": "#64c466",
+                "condition": {
+                  "field": "LIGHTVOLT",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "2"
+                }
+              },
+              {
+                "color": "#864ffe",
+                "condition": {
+                  "field": "LIGHTVOLT",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "4"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "fecha_creado",
+                "order": "desc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "adf8e210-2f7e-4f77-ba89-fa1a2da01fca",
+          "name": "ESSENTIAS Copy",
+          "type": "gallery"
+        },
+        {
+          "config": {
+            "groupByField": "estado",
+            "includeFields": [
+              "Calificación",
+              "Incompleto",
+              "LIGHTVOLT"
+            ],
+            "columns": {
+              "[[‼Essentia]]": {
+                "weight": 0
+              },
+              "En ejecución": {
+                "weight": 1,
+                "records": [
+                  "♦SuferBrainstorming/1'S/Sector Mision/♣Platzi master/Curso de Algoritmos Avanzados. Patrones de Arrays y Strings.md",
+                  "♦SuferBrainstorming/1'S/Sector Mision/♣Platzi master/Curso de Inglés Intermedio B1. Expresiones de Tiempo y Cantidad.md",
+                  "♦SuferBrainstorming/1'S/Sector Mision/♣Platzi master/Curso de Notion.md"
+                ]
+              },
+              "STANDBY": {
+                "weight": 2,
+                "records": [
+                  "♦SuferBrainstorming/1'S/Sector Mision/♣Platzi master/Curso de Ecuaciones Diferenciales.md",
+                  "♦SuferBrainstorming/1'S/Sector Mision/♣Platzi master/Fundamentos de Desarrollo de Hardware con Arduino.md",
+                  "♦SuferBrainstorming/1'S/Sector Mision/♣Platzi master/Desafíos de Pensamiento Lógico.md",
+                  "♦SuferBrainstorming/1'S/Sector Mision/♣Platzi master/Curso de Vocabulario en Inglés para el Trabajo.md",
+                  "♦SuferBrainstorming/1'S/Sector Mision/♣Platzi master/Curso de Inglés Práctico con ChatGPT.md",
+                  "♦SuferBrainstorming/1'S/Sector Mision/♣Platzi master/Audiocurso de Prevención del Burnout.md",
+                  "♦SuferBrainstorming/1'S/Sector Mision/♣Platzi master/Curso de Técnicas de Influencias y persuasión.md",
+                  "♦SuferBrainstorming/1'S/Sector Mision/♣Platzi master/Curso de Glosario de términos de Diseño Gráfico.md",
+                  "♦SuferBrainstorming/1'S/Sector Mision/♣Platzi master/Curso de Fundamentos de Diseño de Interfaces UX-UI.md",
+                  "♦SuferBrainstorming/1'S/Sector Mision/♣Platzi master/Curso Profesional de Git y GitHub.md",
+                  "♦SuferBrainstorming/1'S/Sector Mision/♣Platzi master/Curso de Oratoria para Hablar en Público.md",
+                  "♦SuferBrainstorming/1'S/Sector Mision/♣Platzi master/Fundamentos de Ingeniería de Software.md",
+                  "♦SuferBrainstorming/1'S/Sector Mision/♣Platzi master/Curso de Historia de la Programación. Lenguajes y Paradigmas.md",
+                  "♦SuferBrainstorming/1'S/Sector Mision/♣Platzi master/Curso de Introducción a la Web. Historia y Funcionamiento de Internet.md",
+                  "♦SuferBrainstorming/1'S/Sector Mision/♣Platzi master/Curso de Comunicación Asertiva para la Vida Personal y Profesional.md",
+                  "♦SuferBrainstorming/1'S/Sector Mision/♣Platzi master/Desarrollo e Ingeniería/Curso de Fundamentos de Matemáticas para Física.md",
+                  "♦SuferBrainstorming/1'S/Sector Mision/♣Platzi master/Curso de Introducción a la Terminal y Línea de Comandos.md",
+                  "♦SuferBrainstorming/1'S/Sector Mision/♣Platzi master/Negocios y Emprendimiento/Curso de Introducción a las finanzas corporativas.md",
+                  "♦SuferBrainstorming/1'S/Sector Mision/♣Platzi master/Negocios y Emprendimiento/Curso de Estadística y Probabilidad.md",
+                  "♦SuferBrainstorming/1'S/Sector Mision/♣Platzi master/Liderazgo/Gestión efectiva del tiempo.md",
+                  "♦SuferBrainstorming/1'S/Sector Mision/♣Platzi master/Inglés/Curso Gratis de Estrategias para Aprender Inglés en Línea.md",
+                  "♦SuferBrainstorming/1'S/Sector Mision/♣Platzi master/Desarrollo e Ingeniería/Platzi Space Program - Diseño y fabricación de nuestro Satélite.md",
+                  "♦SuferBrainstorming/1'S/Sector Mision/♣Platzi master/Desarrollo e Ingeniería/Curso de Álgebra.md",
+                  "♦SuferBrainstorming/1'S/Sector Mision/♣Platzi master/Desarrollo e Ingeniería/Audiocurso de Historia de los Cypherpunks.md",
+                  "♦SuferBrainstorming/1'S/Sector Mision/♣Platzi master/Curso de Historia de la Innovación y el Emprendimiento con Diana Uribe.md",
+                  "♦SuferBrainstorming/1'S/Sector Mision/♣Platzi master/Curso de Matemáticas para Data Science. Probabilidad.md",
+                  "♦SuferBrainstorming/1'S/Sector Mision/♣Platzi master/Curso de Java SE Orientado a Objetos.md",
+                  "♦SuferBrainstorming/1'S/Sector Mision/♣Platzi master/Curso de Matemáticas Discretas.md"
+                ]
+              },
+              "Concluido": {
+                "weight": 3
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "tipo_nota",
+                "operator": "contains",
+                "enabled": true,
+                "value": "Essentia"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "fecha_creado",
+                "order": "desc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "0838f36f-96cf-45a1-b99d-59038e0bd18a",
+          "name": "ESTADOS",
+          "type": "board"
+        },
+        {
+          "config": {
+            "interval": "month",
+            "dateField": "próxima_fecha"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "7ded8b95-dd68-4e6a-8402-afec73580dc6",
+          "name": "FECHAS",
+          "type": "calendar"
+        },
+        {
+          "config": {
+            "coverField": "image",
+            "includeFields": [
+              "Calificación",
+              "Incompleto",
+              "próxima_fecha",
+              "Ruta",
+              "terminado"
+            ]
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "Incompleto",
+                "operator": "is-not-empty",
+                "enabled": true
+              },
+              {
+                "field": "tipo_nota",
+                "operator": "is-not",
+                "enabled": true,
+                "value": "primaria"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#f7ce46",
+                "condition": {
+                  "field": "LIGHTVOLT",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "3"
+                }
+              },
+              {
+                "color": "#eb4d3d",
+                "condition": {
+                  "field": "LIGHTVOLT",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "5"
+                }
+              },
+              {
+                "color": "#e292fe",
+                "condition": {
+                  "field": "Materia",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "English"
+                }
+              },
+              {
+                "color": "#ffffff",
+                "condition": {
+                  "field": "LIGHTVOLT",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "6"
+                }
+              },
+              {
+                "color": "#01c7fc",
+                "condition": {
+                  "field": "LIGHTVOLT",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "1"
+                }
+              },
+              {
+                "color": "#64c466",
+                "condition": {
+                  "field": "LIGHTVOLT",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "2"
+                }
+              },
+              {
+                "color": "#864ffe",
+                "condition": {
+                  "field": "LIGHTVOLT",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "4"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "fecha_creado",
+                "order": "desc",
+                "enabled": false
+              },
+              {
+                "field": "Incompleto",
+                "order": "desc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "0e534f46-0a09-42de-9efa-43cfd338a1e0",
+          "name": "ESSENTIAS",
+          "type": "gallery"
+        },
+        {
+          "config": {
+            "coverField": "image"
+          },
+          "filter": {
+            "conjunction": "or",
+            "conditions": [
+              {
+                "field": "tipo_nota",
+                "operator": "is",
+                "enabled": true,
+                "value": "Essentia"
+              },
+              {
+                "field": "name",
+                "operator": "contains",
+                "enabled": true,
+                "value": "Platzi Master"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "9e650a3e-0ec2-4d3d-ba32-c7a078ce8bff",
+          "name": "ALL",
+          "type": "gallery"
+        },
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "90f2eb2a-8455-44c8-abc9-121f559c1b2a",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "3212ca98-5db0-4c75-93e5-c8f29b51b4db",
+      "name": "♠Platzi Master"
+    },
+    {
+      "fieldConfig": {
+        "estado": {
+          "options": [
+            "Concluido",
+            "En ejecución",
+            "Heredado"
+          ]
+        }
+      },
+      "defaultName": "♠BO.PROC - sesión { {{date:DD-MM-YYYY}} }",
+      "templates": [
+        "Templatesss/♠BO.PROC.L - sesión.template.md",
+        "Templatesss/♠BO.PROC.C - sesión.template.md",
+        "Templatesss/♠BO.PROC.PS - sesión.template.md",
+        "Templatesss/♠BO.PROC.RP - sesión.template.md",
+        "Templatesss/Fórmulas - OM-M .template.md",
+        "Templatesss/Org - Problem explainer.template.md",
+        "Templatesss/Registro de Detonación.template.md"
+      ],
+      "excludedNotes": [
+        "Templatesss/♠BO.PROC.C - sesión.template.md",
+        "Templatesss/♠BO.PROC.L - sesión.template.md",
+        "Templatesss/♠BO.PROC.PS - sesión.template.md",
+        "Templatesss/♠BO.PROC.RP - sesión.template.md",
+        "Templatesss/♠AGM - s - {}.template.md",
+        "Templatesss/♠AGM - .template.md",
+        "Templatesss/Fórmulas - OM-M .template.md",
+        "Templatesss/Org - Problem explainer.template.md",
+        "Templatesss/Registro de Detonación.template.md"
+      ],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "tag",
+        "config": {
+          "tag": "#PROC",
+          "hierarchy": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "interval": "month",
+            "dateField": "próxima_fecha",
+            "checkField": "terminado"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#64c466",
+                "condition": {
+                  "field": "terminado",
+                  "operator": "is-checked",
+                  "enabled": true
+                }
+              },
+              {
+                "color": "#f7ce46",
+                "condition": {
+                  "field": "estado",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "Heredado"
+                }
+              },
+              {
+                "color": "#eb4d3d",
+                "condition": {
+                  "field": "terminado",
+                  "operator": "is-not-checked",
+                  "enabled": true
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "61ff8293-0baf-4840-b993-ec2797d82177",
+          "name": "CALENDARIO",
+          "type": "calendar"
+        },
+        {
+          "config": {
+            "groupByField": "estado",
+            "includeFields": [
+              "duracion_resolucion"
+            ],
+            "checkField": "terminado",
+            "columns": {
+              "No status": {
+                "weight": 0
+              },
+              "Concluido": {
+                "weight": 1,
+                "collapse": true
+              },
+              "En ejecución": {
+                "weight": 2
+              },
+              "Heredado": {
+                "weight": 3
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "dificultad_PROC",
+                "operator": "has-any-of",
+                "enabled": false,
+                "value": "[\"800\"]"
+              },
+              {
+                "field": "nota_PROC",
+                "operator": "is",
+                "enabled": true,
+                "value": "Problemas"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#01c7fc",
+                "condition": {
+                  "field": "tipo_BO_PROC",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "Problema"
+                }
+              },
+              {
+                "color": "#864ffe",
+                "condition": {
+                  "field": "tipo_BO_PROC",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "Contest"
+                }
+              },
+              {
+                "color": "#ffa305",
+                "condition": {
+                  "field": "tipo_BO_PROC",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "Ráfaga de Problemas"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "duracion_resolucion",
+                "order": "asc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "f444075a-682f-4ac2-8ecb-7a8122b23382",
+          "name": "PROBLEMAS",
+          "type": "board"
+        },
+        {
+          "config": {
+            "includeFields": [
+              "tags"
+            ]
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "nota_PROC",
+                "operator": "is",
+                "enabled": true,
+                "value": "Teoría"
+              },
+              {
+                "field": "tags",
+                "operator": "has-keyword",
+                "enabled": false,
+                "value": "Lg"
+              },
+              {
+                "field": "tipo_nota",
+                "operator": "is-not",
+                "enabled": true,
+                "value": "Sesión"
+              },
+              {
+                "field": "tags",
+                "operator": "has-any-of",
+                "enabled": false,
+                "value": "[\"Math\"]"
+              },
+              {
+                "field": "tags",
+                "operator": "has-none-of",
+                "enabled": false,
+                "value": "[\"Lg\"]"
+              },
+              {
+                "field": "tags",
+                "operator": "has-any-of",
+                "enabled": false,
+                "value": "[\"PROC/NumberTheory\"]"
+              },
+              {
+                "field": "tags",
+                "operator": "has-any-of",
+                "enabled": false,
+                "value": "[\"PROC/Strings\"]"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "10d3c825-f68a-4c95-8c03-936f9afecfe9",
+          "name": "BO - LEARN & LG",
+          "type": "gallery"
+        },
+        {
+          "config": {
+            "coverField": "image",
+            "includeFields": [
+              "Incompleto",
+              "próxima_fecha"
+            ]
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "tipo_BO",
+                "operator": "is-not-empty",
+                "enabled": true
+              },
+              {
+                "field": "nota_PROC",
+                "operator": "is",
+                "enabled": true,
+                "value": "Problemas"
+              },
+              {
+                "field": "tipo_BO_PROC",
+                "operator": "is",
+                "enabled": true,
+                "value": "Problema"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#3a87fe",
+                "condition": {
+                  "field": "estado",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "Heredado"
+                }
+              },
+              {
+                "color": "#96d35f",
+                "condition": {
+                  "field": "estado",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "Concluido"
+                }
+              },
+              {
+                "color": "#eb4d3d",
+                "condition": {
+                  "field": "estado",
+                  "operator": "is-not",
+                  "enabled": true,
+                  "value": "Concluido"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "Incompleto",
+                "order": "desc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "e7eec651-c04b-4822-b9aa-9c1fc76f7ad8",
+          "name": "BO - Problemas",
+          "type": "gallery"
+        },
+        {
+          "config": {
+            "coverField": "image",
+            "includeFields": [
+              "Incompleto",
+              "próxima_fecha"
+            ]
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "tipo_BO",
+                "operator": "is-not-empty",
+                "enabled": true
+              },
+              {
+                "field": "nota_PROC",
+                "operator": "is",
+                "enabled": true,
+                "value": "Problemas"
+              },
+              {
+                "field": "tipo_BO_PROC",
+                "operator": "is",
+                "enabled": true,
+                "value": "Contest"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#3a87fe",
+                "condition": {
+                  "field": "estado",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "Heredado"
+                }
+              },
+              {
+                "color": "#96d35f",
+                "condition": {
+                  "field": "estado",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "Concluido"
+                }
+              },
+              {
+                "color": "#eb4d3d",
+                "condition": {
+                  "field": "estado",
+                  "operator": "is-not",
+                  "enabled": true,
+                  "value": "Concluido"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "c512d454-6253-4c42-ade8-902190c8d34d",
+          "name": "BO - Contests",
+          "type": "gallery"
+        },
+        {
+          "config": {
+            "includeFields": [
+              "Incompleto",
+              "próxima_fecha"
+            ]
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "tipo_BO",
+                "operator": "is-not-empty",
+                "enabled": true
+              },
+              {
+                "field": "nota_PROC",
+                "operator": "is",
+                "enabled": true,
+                "value": "Problemas"
+              },
+              {
+                "field": "tipo_BO_PROC",
+                "operator": "is",
+                "enabled": true,
+                "value": "Ráfaga de Problemas"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#3a87fe",
+                "condition": {
+                  "field": "estado",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "Heredado"
+                }
+              },
+              {
+                "color": "#96d35f",
+                "condition": {
+                  "field": "estado",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "Concluido"
+                }
+              },
+              {
+                "color": "#eb4d3d",
+                "condition": {
+                  "field": "estado",
+                  "operator": "is-not",
+                  "enabled": true,
+                  "value": "Concluido"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "f5a3f7cd-f7d6-43ea-9e94-f4bcbfb64c45",
+          "name": "BO - Ráfagas problemas",
+          "type": "gallery"
+        },
+        {
+          "config": {
+            "fieldConfig": {
+              "name": {
+                "width": 321
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "nota_PROC",
+                "operator": "is",
+                "enabled": true,
+                "value": "Consideraciones"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "19e09125-676d-4c99-b8a2-5fd5a380bb0d",
+          "name": "Consideraciones",
+          "type": "table"
+        },
+        {
+          "config": {
+            "coverField": "image"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "nota_M",
+                "operator": "is-not-empty",
+                "enabled": true
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "e59c8f5c-7ad1-4646-a432-2f7bd8161570",
+          "name": "FÓRMULAS",
+          "type": "gallery"
+        },
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "ab32e004-b031-48d2-b2ea-f1b9ceb26431",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "1ae353c4-6202-43e0-90ae-efba3d17a595",
+      "name": "Olympic Mind - PROC"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "400 TODO/410 GB/♠Great Binnacle",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "coverField": "image",
+            "includeFields": [
+              "% Productividad",
+              "Incompleto",
+              "ESTADO esfera envenenamiento",
+              "% X-CH",
+              "MODALIDAD del Fuerte",
+              "Tiempo Encapsulado"
+            ]
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "name",
+                "operator": "contains",
+                "enabled": false,
+                "value": "2024"
+              },
+              {
+                "field": "image",
+                "operator": "contains",
+                "enabled": true,
+                "value": ""
+              },
+              {
+                "field": "name",
+                "operator": "contains",
+                "enabled": true,
+                "value": "2025"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "fecha",
+                "order": "desc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "bf538c11-af62-4b8c-a8d7-b092cbdd10f9",
+          "name": "PORTADAS",
+          "type": "gallery"
+        },
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "26b22709-2614-4e91-8c50-6dffa4d779c9",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "b871385c-e66a-41dc-bf90-66209729e678",
+      "name": "♠Great Binnacle"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "♠DreamCatcher { {{date:DD-MM-YYYY}} }",
+      "templates": [
+        "Templatesss/♠DreamCatcher.template.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "♦SuferBrainstorming/1'S/Sector Línea de Tiempo/♣A Lifetime/♣Xperiences/♠Remembering/♠DreamCatcher",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "coverField": "image"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "name",
+                "operator": "contains",
+                "enabled": true,
+                "value": "2024"
+              },
+              {
+                "field": "image",
+                "operator": "contains",
+                "enabled": true,
+                "value": ""
+              }
+            ]
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#eb4d3d",
+                "condition": {
+                  "field": "terminado",
+                  "operator": "is-not-checked",
+                  "enabled": true
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "fecha",
+                "order": "desc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "71317a7c-b67a-4f04-8467-d138df67a35e",
+          "name": "PORTADAS CON IMG",
+          "type": "gallery"
+        },
+        {
+          "config": {
+            "coverField": "image"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "name",
+                "operator": "contains",
+                "enabled": true,
+                "value": "2025"
+              },
+              {
+                "field": "image",
+                "operator": "contains",
+                "enabled": false,
+                "value": ""
+              }
+            ]
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#eb4d3d",
+                "condition": {
+                  "field": "terminado",
+                  "operator": "is-not-checked",
+                  "enabled": true
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "fecha",
+                "order": "desc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "798a6fea-280b-4984-a4c1-86c8b661749a",
+          "name": "DREAMS",
+          "type": "gallery"
+        },
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "78d41c8a-58f2-4879-a158-dd9a85bf76d5",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "f95f88c7-16c3-4481-8606-7f394f7e5c92",
+      "name": "DreamCatcher"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "ST { {{date:DD-MM-YYYY}} }",
+      "templates": [
+        "♠COLJAR/STORMED.template.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "tag",
+        "config": {
+          "tag": "#STORMED",
+          "hierarchy": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "c4e6f59f-77eb-402f-8cdb-5deeab5cefb0",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "coverField": "image"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "tipo_nota",
+                "operator": "is-not",
+                "enabled": true,
+                "value": "primaria"
+              },
+              {
+                "field": "terminado",
+                "operator": "is-checked",
+                "enabled": false
+              },
+              {
+                "field": "name",
+                "operator": "not-contains",
+                "enabled": true,
+                "value": "2024}"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#64c466",
+                "condition": {
+                  "field": "terminado",
+                  "operator": "is-checked",
+                  "enabled": true
+                }
+              },
+              {
+                "color": "#ffa305",
+                "condition": {
+                  "field": "estado",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "STANDBY"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "fecha",
+                "order": "asc",
+                "enabled": false
+              },
+              {
+                "field": "terminado",
+                "order": "asc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "be6da663-2f27-46a1-9704-21eb9e4f4a5d",
+          "name": "STORMED",
+          "type": "gallery"
+        }
+      ],
+      "id": "35fd7c3f-e04a-4321-9b78-5bcb56e0989f",
+      "name": "STORMED"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "EH - ",
+      "templates": [
+        "Templatesss/-(°)EH.template.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "♦SuferBrainstorming/-(°) BigCoreElements/-(°)ENHANCED",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "includeFields": [
+              "LIGHTVOLT"
+            ],
+            "coverField": "image"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "tipo_EH",
+                "operator": "contains",
+                "enabled": true,
+                "value": "Primario"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#ffffff",
+                "condition": {
+                  "field": "LIGHTVOLT",
+                  "operator": "contains",
+                  "enabled": false,
+                  "value": "6"
+                }
+              },
+              {
+                "color": "#01c7fc",
+                "condition": {
+                  "field": "LIGHTVOLT",
+                  "operator": "contains",
+                  "enabled": false,
+                  "value": "1"
+                }
+              },
+              {
+                "color": "#e63b7a",
+                "condition": {
+                  "field": "LIGHTVOLT",
+                  "operator": "contains",
+                  "enabled": false,
+                  "value": "5"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "ac17e0fc-9482-4cfa-8f7b-5a3c577f8d4e",
+          "name": "EH - Primarios",
+          "type": "gallery"
+        },
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "tipo_EH",
+                "operator": "is",
+                "enabled": true,
+                "value": "MEMORIAM"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#ffffff",
+                "condition": {
+                  "field": "LIGHTVOLT",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "6"
+                }
+              },
+              {
+                "color": "#01c7fc",
+                "condition": {
+                  "field": "LIGHTVOLT",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "1"
+                }
+              },
+              {
+                "color": "#e63b7a",
+                "condition": {
+                  "field": "LIGHTVOLT",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "5"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "3b9ac2d8-6b5e-45ee-ac6c-56c743ebe6c6",
+          "name": "EH - MEMORIAM",
+          "type": "gallery"
+        },
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "tipo_EH",
+                "operator": "is",
+                "enabled": true,
+                "value": "TECHMASTER"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#ffa305",
+                "condition": {
+                  "field": "LIGHTVOLT",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "3"
+                }
+              },
+              {
+                "color": "#01c7fc",
+                "condition": {
+                  "field": "LIGHTVOLT",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "1"
+                }
+              },
+              {
+                "color": "#64c466",
+                "condition": {
+                  "field": "LIGHTVOLT",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "2"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "81e308ca-9cf1-44f1-8965-aebb04f6c85d",
+          "name": "EH - TECHMASTER",
+          "type": "gallery"
+        },
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "fe7323b7-826b-43c5-b7e5-dba761c8170a",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "3a128ca9-ec53-4139-84c1-e3dd70edc6b1",
+      "name": "ENHANCED"
+    },
+    {
+      "fieldConfig": {
+        "tipo_dibujo_f_d": {
+          "options": [
+            "Físico",
+            "Digital"
+          ]
+        },
+        "estado": {
+          "options": [
+            "Planeación",
+            "En ejecución",
+            "Concluido",
+            "STANDBY"
+          ]
+        }
+      },
+      "defaultName": "Colenicot’s ",
+      "templates": [
+        "Templatesss/♠Drawn - composición.template.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "♦SuferBrainstorming/1'S/Sector Conocimientos & Habilidades/♠Drawn",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "groupByField": "estado",
+            "includeFields": [
+              "tipo_dibujo",
+              "tipo_origen"
+            ],
+            "columns": {
+              "No status": {
+                "weight": 0
+              },
+              "Planeación": {
+                "weight": 1
+              },
+              "En ejecución": {
+                "weight": 2
+              },
+              "Concluido": {
+                "records": [
+                  "♦SuferBrainstorming/1'S/Sector Conocimientos & Habilidades/♠Drawn/Amxt - Drama al aire.md",
+                  "♦SuferBrainstorming/1'S/Sector Conocimientos & Habilidades/♠Drawn/AXO v1.md",
+                  "♦SuferBrainstorming/1'S/Sector Conocimientos & Habilidades/♠Drawn/COCO - Comunista (Ongezellig)/COCO - Comunista (Ongezellig).md",
+                  "♦SuferBrainstorming/1'S/Sector Conocimientos & Habilidades/♠Drawn/Colenicot's Burst I.md",
+                  "♦SuferBrainstorming/1'S/Sector Conocimientos & Habilidades/♠Drawn/Colenicot's Burst II.md",
+                  "♦SuferBrainstorming/1'S/Sector Conocimientos & Habilidades/♠Drawn/Colenicot's Burst III.md",
+                  "♦SuferBrainstorming/1'S/Sector Conocimientos & Habilidades/♠Drawn/Colenicot's Burst IV.md",
+                  "♦SuferBrainstorming/1'S/Sector Conocimientos & Habilidades/♠Drawn/Colenicot's first progress.md",
+                  "♦SuferBrainstorming/1'S/Sector Conocimientos & Habilidades/♠Drawn/Colenicot's Progress II.md",
+                  "♦SuferBrainstorming/1'S/Sector Conocimientos & Habilidades/♠Drawn/Colenicot's Progress III.md",
+                  "♦SuferBrainstorming/1'S/Sector Conocimientos & Habilidades/♠Drawn/Dama roja.md",
+                  "♦SuferBrainstorming/1'S/Sector Conocimientos & Habilidades/♠Drawn/Damas (From ♠DreamCatcher).md",
+                  "♦SuferBrainstorming/1'S/Sector Conocimientos & Habilidades/♠Drawn/To commit.md",
+                  "♦SuferBrainstorming/1'S/Sector Conocimientos & Habilidades/♠Drawn/Un baile Originario.md"
+                ],
+                "weight": 3
+              },
+              "STANDBY": {
+                "weight": 4
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "tipo",
+                "operator": "is-not",
+                "enabled": true,
+                "value": "ptetra"
+              },
+              {
+                "field": "tipo_nota",
+                "operator": "is-not",
+                "enabled": true,
+                "value": "alimentadora/secundaria"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "76fd4ca0-3d1f-46e5-b982-84330d5b9b2e",
+          "name": "ESTADOS",
+          "type": "board"
+        },
+        {
+          "config": {
+            "groupByField": "tipo_dibujo_f_d"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "tipo_dibujo",
+                "operator": "is-not-empty",
+                "enabled": true
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "5508c012-fe07-4b44-a0ca-6530c1c44373",
+          "name": "TIPOS",
+          "type": "board"
+        },
+        {
+          "config": {
+            "interval": "month",
+            "dateField": "fecha_entrega"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#f7ce46",
+                "condition": {
+                  "field": "estado",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "ejecución"
+                }
+              },
+              {
+                "color": "#64c466",
+                "condition": {
+                  "field": "estado",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "Concluido"
+                }
+              },
+              {
+                "color": "#ffffff",
+                "condition": {
+                  "field": "estado",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "Planeación"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "a9461482-858b-4947-9419-0bedbd63081b",
+          "name": "Programación de proyectos",
+          "type": "calendar"
+        },
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "8fdbac2d-de27-455c-95f1-684fec2a5f5c",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "coverField": "image"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "37d4131f-8aad-4484-beec-83775fe394e5",
+          "name": "Gallery",
+          "type": "gallery"
+        }
+      ],
+      "id": "79df5f2f-7fa5-4c86-8aa1-b7ca89e37509",
+      "name": "♠Drawn"
+    },
+    {
+      "fieldConfig": {
+        "status": {
+          "options": [
+            "Pendiente",
+            "Finalizado"
+          ]
+        },
+        "dificultad": {
+          "options": [
+            "🟢",
+            "🟡",
+            "🟠",
+            "🔴"
+          ]
+        }
+      },
+      "defaultName": "♠Chess - sesión { {{date:DD-MM-YYYY}} }",
+      "templates": [
+        "Templatesss/♠Chess - sesion.template.md",
+        "Templatesss/♠Chess - .template.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "♦SuferBrainstorming/-(°) BigCoreElements/-(°)ENHANCED/♠MasChesster",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "interval": "month"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#64c466",
+                "condition": {
+                  "field": "terminado",
+                  "operator": "is-checked",
+                  "enabled": true
+                }
+              },
+              {
+                "color": "#eb4d3d",
+                "condition": {
+                  "field": "terminado",
+                  "operator": "is-not-checked",
+                  "enabled": true
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "d507b878-e9b7-4bc9-b427-dde9b12c8723",
+          "name": "Calendario sesiones",
+          "type": "calendar"
+        },
+        {
+          "config": {
+            "coverField": "image",
+            "includeFields": [
+              "Calificación"
+            ]
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "name",
+                "operator": "contains",
+                "enabled": true,
+                "value": "sesión"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#64c466",
+                "condition": {
+                  "field": "terminado",
+                  "operator": "is-checked",
+                  "enabled": true
+                }
+              },
+              {
+                "color": "#eb4d3d",
+                "condition": {
+                  "field": "terminado",
+                  "operator": "is-not-checked",
+                  "enabled": true
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "fecha",
+                "order": "desc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "6cd591cf-231f-43e6-ba88-477abb520f35",
+          "name": "Sesiones",
+          "type": "gallery"
+        },
+        {
+          "config": {
+            "groupByField": "dificultad",
+            "includeFields": [
+              "Calificación"
+            ]
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "tipo_nota",
+                "operator": "is",
+                "enabled": true,
+                "value": "Sesión"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#64c466",
+                "condition": {
+                  "field": "terminado",
+                  "operator": "is-checked",
+                  "enabled": true
+                }
+              },
+              {
+                "color": "#eb4d3d",
+                "condition": {
+                  "field": "terminado",
+                  "operator": "is-not-checked",
+                  "enabled": true
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "fecha",
+                "order": "desc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "ba823b91-a54d-4343-b3c2-b0f9b7397640",
+          "name": "ESTADOS",
+          "type": "board"
+        },
+        {
+          "config": {
+            "coverField": "image"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "tipo_nota",
+                "operator": "contains",
+                "enabled": true,
+                "value": "secundaria"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#64c466",
+                "condition": {
+                  "field": "terminado",
+                  "operator": "is-checked",
+                  "enabled": true
+                }
+              },
+              {
+                "color": "#eb4d3d",
+                "condition": {
+                  "field": "terminado",
+                  "operator": "is-not-checked",
+                  "enabled": true
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "fecha",
+                "order": "desc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "6157ba1e-a811-4229-931b-9434df999dbf",
+          "name": "Táctica y Estrategía",
+          "type": "gallery"
+        },
+        {
+          "config": {
+            "groupByField": "status",
+            "checkField": "terminado"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "tipo_nota",
+                "operator": "contains",
+                "enabled": true,
+                "value": "secundaria"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "f35bc8cb-19b9-4deb-9d1e-368f040873b3",
+          "name": "T y E status",
+          "type": "board"
+        },
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "a5dc93d9-fc3a-4e49-908a-ace525fc0c13",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "427df436-5e61-41f0-8e2d-3fd7daf095e1",
+      "name": "♠MasChesster"
+    },
+    {
+      "fieldConfig": {
+        "ESTADO_LEC": {
+          "options": [
+            "🔴STAND BY🔴",
+            "🔴CANCELADO🔴",
+            "🟠EN ESPERA🟠",
+            "🟡EN PROCESO🟡",
+            "🟢TERMINADO🟢",
+            "🔵ESSENTIA🔵",
+            "⚫LATER⚫"
+          ]
+        }
+      },
+      "defaultName": "",
+      "templates": [
+        "Templatesss/♠Read - ‼Essentia.template.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "♦SuferBrainstorming/1'S/Sector Conocimientos & Habilidades/♠Read",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "coverField": "image",
+            "fitStyle": "contain",
+            "includeFields": [
+              "ESTADO_LEC",
+              "fecha_creado",
+              "Requerimientos_libro",
+              "status"
+            ],
+            "cardWidth": 200
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "tipo_nota",
+                "operator": "is",
+                "enabled": true,
+                "value": "Essentia"
+              },
+              {
+                "field": "status",
+                "operator": "is",
+                "enabled": false,
+                "value": "Activo"
+              },
+              {
+                "field": "status",
+                "operator": "is",
+                "enabled": false,
+                "value": "En espera de ejecución"
+              },
+              {
+                "field": "ESTADO_LEC",
+                "operator": "is",
+                "enabled": true,
+                "value": "🟡EN PROCESO🟡"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#52d6fc",
+                "condition": {
+                  "field": "LIGHTVOLT",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "1"
+                }
+              },
+              {
+                "color": "#64c466",
+                "condition": {
+                  "field": "LIGHTVOLT",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "2"
+                }
+              },
+              {
+                "color": "#ffab01",
+                "condition": {
+                  "field": "LIGHTVOLT",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "3"
+                }
+              },
+              {
+                "color": "#b18cfe",
+                "condition": {
+                  "field": "LIGHTVOLT",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "4"
+                }
+              },
+              {
+                "color": "#0042a9",
+                "condition": {
+                  "field": "LIGHTVOLT",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "0"
+                }
+              },
+              {
+                "color": "#e63b7a",
+                "condition": {
+                  "field": "LIGHTVOLT",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "5"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "name",
+                "order": "asc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "3893a97b-84ed-47bb-b2e9-ece27dd5422a",
+          "name": "ACTIVOS",
+          "type": "gallery"
+        },
+        {
+          "config": {
+            "coverField": "image",
+            "fitStyle": "contain",
+            "includeFields": [
+              "ESTADO_LEC",
+              "fecha_creado",
+              "Requerimientos_libro",
+              "status"
+            ],
+            "cardWidth": 200
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "tipo_nota",
+                "operator": "is",
+                "enabled": true,
+                "value": "Essentia"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#52d6fc",
+                "condition": {
+                  "field": "LIGHTVOLT",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "1"
+                }
+              },
+              {
+                "color": "#64c466",
+                "condition": {
+                  "field": "LIGHTVOLT",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "2"
+                }
+              },
+              {
+                "color": "#ffab01",
+                "condition": {
+                  "field": "LIGHTVOLT",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "3"
+                }
+              },
+              {
+                "color": "#b18cfe",
+                "condition": {
+                  "field": "LIGHTVOLT",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "4"
+                }
+              },
+              {
+                "color": "#0042a9",
+                "condition": {
+                  "field": "LIGHTVOLT",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "0"
+                }
+              },
+              {
+                "color": "#e63b7a",
+                "condition": {
+                  "field": "LIGHTVOLT",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "5"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "name",
+                "order": "asc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "0a36f259-c1fe-4a41-9ca0-84e0e972f411",
+          "name": "Biblioteca",
+          "type": "gallery"
+        },
+        {
+          "config": {
+            "groupByField": "ESTADO_LEC",
+            "columns": {
+              "🔴STAND BY🔴": {
+                "weight": 0
+              },
+              "🔴CANCELADO🔴": {
+                "weight": 1
+              },
+              "🟠EN ESPERA🟠": {
+                "weight": 2,
+                "records": [
+                  "♦SuferBrainstorming/1'S/Sector Conocimientos & Habilidades/♠Read/Aprende Arduino en un fin de semana.md",
+                  "♦SuferBrainstorming/1'S/Sector Conocimientos & Habilidades/♠Read/El Bosón de Higgs no te va a hacer la cama.md",
+                  "♦SuferBrainstorming/1'S/Sector Conocimientos & Habilidades/♠Read/El encanto de PI.md",
+                  "♦SuferBrainstorming/1'S/Sector Conocimientos & Habilidades/♠Read/FUNCIONES CIRCULARES.md",
+                  "♦SuferBrainstorming/1'S/Sector Conocimientos & Habilidades/♠Read/La conciencia viviente.md",
+                  "♦SuferBrainstorming/1'S/Sector Conocimientos & Habilidades/♠Read/Los hoyos negros y la curvatura del espacio-tiempo.md",
+                  "♦SuferBrainstorming/1'S/Sector Conocimientos & Habilidades/♠Read/Matemáticos, espías y piratas informáticos.md",
+                  "♦SuferBrainstorming/1'S/Sector Conocimientos & Habilidades/♠Read/Pequeño Cerdo Capitalista.md",
+                  "♦SuferBrainstorming/1'S/Sector Conocimientos & Habilidades/♠Read/Platón.md",
+                  "♦SuferBrainstorming/1'S/Sector Conocimientos & Habilidades/♠Read/VEINTE POEMAS DE AMOR Y UNA CANCIÓN DESESPERADA. CIEN SONETOS DE AMOR.md"
+                ]
+              },
+              "🟡EN PROCESO🟡": {
+                "weight": 3
+              },
+              "🟢TERMINADO🟢": {
+                "weight": 4
+              },
+              "🔵ESSENTIA🔵": {
+                "weight": 5
+              },
+              "⚫LATER⚫": {
+                "weight": 6,
+                "records": [
+                  "♦SuferBrainstorming/1'S/Sector Conocimientos & Habilidades/♠Read/The Status of the P versus NP Problem.md"
+                ]
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "tipo_nota",
+                "operator": "contains",
+                "enabled": true,
+                "value": "Essentia"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "28b160a0-b97e-49fc-b79c-c7d03bf0d5ea",
+          "name": "ESTADOS LIBROS",
+          "type": "board"
+        },
+        {
+          "config": {
+            "interval": "month",
+            "dateField": "próxima_fecha",
+            "checkField": "terminado"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "07e29993-c516-474f-8cee-3802890a061a",
+          "name": "FECHAS LECTURAS",
+          "type": "calendar"
+        },
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "8eff9c8f-7625-4759-ba3c-810166e95e39",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "ad9e35f5-6884-440c-8189-616efeec5ef6",
+      "name": "♠Read"
+    },
+    {
+      "fieldConfig": {
+        "estado": {
+          "options": [
+            "STANDBY",
+            "En ejecución",
+            "Concluido"
+          ]
+        }
+      },
+      "defaultName": "",
+      "templates": [
+        "Templatesss/♠WiD.template.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "♦SuferBrainstorming/1'S/Sector Conocimientos & Habilidades/♠WiD",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "coverField": "image"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "tipo_nota",
+                "operator": "is-not",
+                "enabled": true,
+                "value": "primaria"
+              },
+              {
+                "field": "name",
+                "operator": "not-contains",
+                "enabled": true,
+                "value": "Kanban"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#64c466",
+                "condition": {
+                  "field": "terminado",
+                  "operator": "is-checked",
+                  "enabled": true
+                }
+              },
+              {
+                "color": "#eb4d3d",
+                "condition": {
+                  "field": "terminado",
+                  "operator": "is-not-checked",
+                  "enabled": true
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "fecha_creado",
+                "order": "desc",
+                "enabled": true
+              },
+              {
+                "field": "name",
+                "order": "desc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "df914700-4e60-4b78-a9c0-e60a40b7743d",
+          "name": "WiD",
+          "type": "gallery"
+        },
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "b1c925b7-783e-40f3-bca6-1f1402841fde",
+          "name": "FECHAS",
+          "type": "calendar"
+        },
+        {
+          "config": {
+            "groupByField": "estado",
+            "includeFields": [
+              "tipo_escrito"
+            ]
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "tipo_nota",
+                "operator": "is-not",
+                "enabled": true,
+                "value": "primaria"
+              },
+              {
+                "field": "name",
+                "operator": "not-contains",
+                "enabled": true,
+                "value": "Kanban"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "fecha_creado",
+                "order": "asc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "d70dfa7e-4695-4281-a310-18ff368714f8",
+          "name": "Estados",
+          "type": "board"
+        },
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "54692ae0-77f0-4db1-9dfd-4d9ebefb16fd",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "1426b54f-f339-405e-8f32-efe7f2e82115",
+      "name": "♠Write it Down"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "tag",
+        "config": {
+          "tag": "#♣_PROYECTO_♣",
+          "hierarchy": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "05dbc474-f52c-4b17-8e82-b599d49837f8",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "coverField": "image",
+            "includeFields": []
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#64c466",
+                "condition": {
+                  "field": "estado",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "Concluido"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "4b67fb1f-686e-4832-9d2c-b87d91f3b716",
+          "name": "PROYECTOS ACTIVOS",
+          "type": "gallery"
+        },
+        {
+          "config": {
+            "interval": "month"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "4ab25c66-309f-4295-b0b8-86db36b57bf8",
+          "name": "BITÁCORA",
+          "type": "calendar"
+        }
+      ],
+      "id": "e135e6c4-d3bc-4921-8db5-2b39f76a8823",
+      "name": "♣ PROYECTOS ♣"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "♣Lg - ",
+      "templates": [
+        "Templatesss/♣Lg -.template.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "tag",
+        "config": {
+          "tag": "#♣Lg",
+          "hierarchy": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "34928330-b236-4e70-abf8-1957127cdbc9",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "6a443dbc-10da-401a-ba9c-e3b457eea931",
+      "name": "♣Legend"
+    },
+    {
+      "fieldConfig": {
+        "estado": {
+          "options": [
+            "En ejecución",
+            "Planeación",
+            "Concluido",
+            "Heredado",
+            "STANDBY"
+          ]
+        }
+      },
+      "defaultName": "♠BO -",
+      "templates": [
+        "Templatesss/♠BO.template.md",
+        "Templatesss/♠BO - sesion.template.md",
+        "Templatesss/BO.ton - {}.template.md",
+        "Templatesss/♠BO.PROC.C - sesión.template.md",
+        "Templatesss/♠BO.L - P - s () {}.template.md",
+        "Templatesss/Learn - sesion.template.md"
+      ],
+      "excludedNotes": [
+        "Templatesss/♠BO.L - P - s () {}.template.md",
+        "Templatesss/♠BO - sesion.template.md",
+        "Templatesss/♠BO.PF - P - s () {} Proyecto fugaz.template.md",
+        "Templatesss/♠BO.template.md",
+        "Templatesss/♠Repay.template.md",
+        "Templatesss/♠BO.PROC.C - sesión.template.md",
+        "Templatesss/♠BO.PROC.L - sesión.template.md",
+        "Templatesss/♠BO.PROC.PS - sesión.template.md",
+        "Templatesss/♠BO.PROC.RP - sesión.template.md"
+      ],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "tag",
+        "config": {
+          "tag": "#BO",
+          "hierarchy": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "interval": "month",
+            "dateField": "fecha"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "e768b3f1-39ce-4308-969b-dca3be5e25e0",
+          "name": "CALENDARIOS BOS",
+          "type": "calendar"
+        },
+        {
+          "config": {
+            "includeFields": [
+              "pertenece a",
+              "serie"
+            ]
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "tipo_nota",
+                "operator": "contains",
+                "enabled": true,
+                "value": "secundaria"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#fefb41",
+                "condition": {
+                  "field": "estado",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "Planeación"
+                }
+              },
+              {
+                "color": "#96d35f",
+                "condition": {
+                  "field": "estado",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "En ejecución"
+                }
+              },
+              {
+                "color": "#999999",
+                "condition": {
+                  "field": "estado",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "STANDBY"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "503aab1c-db1f-47e7-a3a1-faf4c7d41330",
+          "name": "BO - ACTIVOS (SECUNDARIOS PRIMARIOS)",
+          "type": "gallery"
+        },
+        {
+          "config": {
+            "groupByField": "estado",
+            "columns": {
+              "No status": {
+                "weight": 0
+              },
+              "En ejecución": {
+                "weight": 1
+              },
+              "Planeación": {
+                "weight": 2
+              },
+              "Concluido": {
+                "weight": 3
+              },
+              "Heredado": {
+                "weight": 4
+              },
+              "STANDBY": {
+                "weight": 5
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "tipo_nota",
+                "operator": "is-not",
+                "enabled": true,
+                "value": "primaria"
+              },
+              {
+                "field": "name",
+                "operator": "not-contains",
+                "enabled": true,
+                "value": "template"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#ffffff",
+                "condition": {
+                  "field": "tipo_nota",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "secundaria"
+                }
+              },
+              {
+                "color": "#0061fe",
+                "condition": {
+                  "field": "serie",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "Programación"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "2b32b856-bee4-44ae-856d-808cb3f3532b",
+          "name": "Kanban - ♠BrainOut",
+          "type": "board"
+        },
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "tipo_nota",
+                "operator": "is",
+                "enabled": true,
+                "value": "Sesión"
+              },
+              {
+                "field": "tipo_BO",
+                "operator": "is",
+                "enabled": false,
+                "value": "BrainOutón"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#0061fe",
+                "condition": {
+                  "field": "serie",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "Programación"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "5b908988-227a-41aa-a8e1-90f2050c20c8",
+          "name": "BO - SESIONES",
+          "type": "gallery"
+        },
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "cc2b0c0f-889d-4b5d-a9f7-94cddecf7808",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "231410e7-dab2-4faa-904b-9ece16ad706f",
+      "name": "♠BrainOut"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "♠Polig - { {{date:DD-MM-YYYY}} }",
+      "templates": [
+        "Templatesss/♠Polig - () {}.template.md",
+        "Templatesss/♠Polig - .template.md"
+      ],
+      "excludedNotes": [
+        "Templatesss/♠Polig - () {}.template.md",
+        "Templatesss/♠Polig - .template.md"
+      ],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "tag",
+        "config": {
+          "tag": "#Políglota",
+          "hierarchy": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "67ffd4e9-a0f4-4b9f-b3d8-0e8ecffa819a",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "interval": "month"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "9c5c1065-88f1-47c8-81c1-857a10078d62",
+          "name": "SESIONES",
+          "type": "calendar"
+        }
+      ],
+      "id": "16e00c59-58ed-4d06-bda8-0be8e92f33a9",
+      "name": "♠Políglota"
+    },
+    {
+      "fieldConfig": {
+        "estado": {
+          "options": [
+            "Planeación",
+            "En ejecución"
+          ]
+        },
+        "status": {
+          "options": [
+            "Pendiente",
+            "Activo"
+          ]
+        }
+      },
+      "defaultName": "♠AGM - s - {}",
+      "templates": [
+        "Templatesss/♠AGM - .template.md",
+        "Templatesss/♠AGM - s - {}.template.md"
+      ],
+      "excludedNotes": [
+        "Templatesss/♠AGM - s - {}.template.md",
+        "Templatesss/♠AGM - .template.md"
+      ],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "tag",
+        "config": {
+          "tag": "#AGM",
+          "hierarchy": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "includeFields": [
+              "ESTADO_LEC"
+            ]
+          },
+          "filter": {
+            "conditions": [
+              {
+                "field": "name",
+                "operator": "not-contains",
+                "enabled": false,
+                "value": "♠ALGORITMIA"
+              },
+              {
+                "field": "tags",
+                "operator": "has-any-of",
+                "enabled": true,
+                "value": "[\"Lg\"]"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#ffffff",
+                "condition": {
+                  "field": "name",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "♠ALGORITMIA"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "a728f6e8-7cf8-4be1-871f-76c4303bff97",
+          "name": "AGM",
+          "type": "gallery"
+        },
+        {
+          "config": {
+            "interval": "month",
+            "dateField": "próxima_fecha",
+            "checkField": "terminado"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "c80a0a3d-1416-4503-b511-fd9c99e992fe",
+          "name": "FECHAS",
+          "type": "calendar"
+        },
+        {
+          "config": {
+            "groupByField": "status"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "1f8de021-2ab3-48f8-89bf-7c0a521815c0",
+          "name": "ESTADOS",
+          "type": "board"
+        },
+        {
+          "config": {},
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "28fde2e7-e36a-4179-9d6a-77dc65153def",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "93cddb13-cac8-4b43-be49-7ef8dcb27e0c",
+      "name": "♠ALGORITMIA"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [
+        "Bitácora.template.md"
+      ],
+      "excludedNotes": [
+        "Bitácora.template.md"
+      ],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "tag",
+        "config": {
+          "tag": "#MODALIDAD",
+          "hierarchy": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "interval": "month"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "a6b98003-137e-4b47-9a3a-2764bebe54d2",
+          "name": "CALENDARIZACIÓN",
+          "type": "calendar"
+        },
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "08ddfb17-30dd-40b6-a61c-669b790e8659",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "b0ba8217-3181-4f32-b287-8521127e638a",
+      "name": "MODALIDADES - FUERTE"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "dataview",
+        "config": {
+          "query": "TABLE Asignatura, status\nFROM \"ACADEMIC\"\nWHERE contains(file.tags, \"#♠A-T\")\n"
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "4857b4ed-dc65-4f1b-8fe5-c92a222d852b",
+          "name": "ASIGNATURAS",
+          "type": "gallery"
+        },
+        {
+          "config": {
+            "includeFields": [],
+            "groupByField": "status",
+            "columns": {
+              "🔲INGAP🔲": {
+                "records": [
+                  "ACADEMIC/5 ° Semestre/Dispositivos Electrónicos (Dispos)/10 About/♠A-T Dispositivos Electrónicos (Dispos).md",
+                  "ACADEMIC/5 ° Semestre/Señales y Sistemas (SyS)/10 About/♠A-T Señales y Sistemas.md",
+                  "ACADEMIC/5 ° Semestre/Lenguajes Formales y Autómatas (LFyA)/10 About/♠A-T Lenguajes Formales y Autómatas.md"
+                ]
+              },
+              "Pendiente": {
+                "records": [
+                  "ACADEMIC/110 About/♠A-T SUPER UNIVERSITARIO {-4-}.md"
+                ],
+                "collapse": true
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "9f9173c6-ba40-41a6-ada0-8231237b798b",
+          "name": "Status",
+          "type": "board"
+        },
+        {
+          "config": {
+            "fieldConfig": {
+              "File": {
+                "width": 645
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "be8a71ff-4c96-4972-b771-6e6860ea473c",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "d920a2dc-3ec1-4705-877e-f61398198580",
+      "name": "SUPER UNIVERSITARIO"
+    }
+  ],
+  "archives": [],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "PLAIN"
+    },
+    "locale": {
+      "firstDayOfWeek": "sunday"
+    },
+    "commands": [],
+    "linkBehavior": "open-note"
+  }
+}

@@ -1,0 +1,100 @@
+#.gitignore
+#.obsidian
+
+# Ignorar todo
+*
+
+!.gitignore
+
+# --- [CLASE] ---
+
+!_config/
+!_config/**
+
+!_IMÁGENES/
+!_IMÁGENES/**
+
+# Permitir recorrer las rutas dentro de ACADEMIC
+!ACADEMIC/
+!ACADEMIC/**
+
+!200 FUERTE/
+!200 FUERTE/**
+
+200 FUERTE/☼ First Rise/Anterior - OldVersion/♣ Jovenes hacia la Investigación/♣J IV/Entregables/Reporte técnico/
+200 FUERTE/♠Read/LIGHTVOLT*
+!200 FUERTE/♠Read/LIGHTVOLT 3/
+!200 FUERTE/♠Read/LIGHTVOLT 3/**
+200 FUERTE/♣A Lifetime/♣Xperiences/ETE CM/
+200 FUERTE/♣Platzi master/Desarrollo e Ingeniería/Curso de Ecuaciones Diferenciales Curso de Ecuaciones Diferenciales/
+200 FUERTE/♣Platzi master/Desarrollo e Ingeniería/Curso de Introducción a la Terminal y Línea de Comandos/diferencia-de-permisos-entre-archivos-y-directorios_2f436ae8-2c28-408d-a7cf-c22e9426b5a2.pdf
+200 FUERTE/♣Platzi master/Inglés/Curso de Inglés Intermedio B1. Expresiones de Tiempo y Cantidad/slides-curso-de-ingles-intermedio-b1-expresiones-de-tiempo-y-cantidad_4a88b3e0-0595-4178-8f6d-75b5116bbdfb.pdf
+200 FUERTE/♣CPCFI/Sessions-20240825T195647Z-001.zip
+200 FUERTE/♣A Lifetime/♣Xperiences/CLOVERS++/Clovers más más-20230917T053630Z-001.zip
+200 FUERTE/☼ First Rise/Anterior - OldVersion/♣ Jovenes hacia la Investigación/♣J IV/JIV - Estancia.zip
+
+!400 TODO/
+!400 TODO/**
+
+!500 PROC/
+!500 PROC/**
+
+!600 CALENDAR/
+!600 CALENDAR/**
+
+!800 TUNEL/
+!800 TUNEL/**
+
+!Templatesss/
+!Templatesss/**
+
+# Incluir solo las carpetas que terminan exactamente en los nombres deseados
+!ACADEMIC/**/*10 About/
+!ACADEMIC/**/*10 About/**
+!ACADEMIC/**/*20 DET/
+!ACADEMIC/**/*20 DET/**
+!ACADEMIC/**/*30 Sesiones/
+!ACADEMIC/**/*30 Sesiones/**
+!ACADEMIC/**/*40 Legend/
+!ACADEMIC/**/*40 Legend/**
+!ACADEMIC/190 COLJAR/
+!ACADEMIC/190 COLJAR/**
+
+# De nuevo si
+**/Credenciales de Git.md
+
+# Para el plug in de Obsidian de Projects
+!.obsidian/
+!.obsidian/plugins/
+!.obsidian/snippets/
+!.obsidian/snippets/**
+!.obsidian/plugins/obsidian-projects/
+!.obsidian/plugins/obsidian-projects/**
+!.obsidian/workspaces.json
+
+# ==========================================================================================
+# --- [ DESACOPLOS ] ---
+#-- Para quartz y despliegue en páginas web
+!**/content/**/index.md
+!index.md
+
+!export/
+!export/**
+
+!156 PROYECTO BD/
+!156 PROYECTO BD/**
+
+!201**/
+!201**/**
+
+!202**/
+!202**/**
+
+!203**/
+!203**/**
+
+!204**/
+!204**/**
+
+# LFS
+**/*.mp4*.mp4
