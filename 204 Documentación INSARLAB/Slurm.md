@@ -1,5 +1,6 @@
 Hola soy slurm
 
+<<<<<<< HEAD
 **Job scheduler**
 
 
@@ -114,3 +115,19 @@ Redirecciona a nu fichero llamado `slurm-<JOBID>.out`
 
 # BEYOND
 - `screen`
+=======
+
+- **`#SBATCH --output=<ruta_del_archivo>`**: Redirige la salida estándar (`stdout`) a un archivo.
+
+- **`#SBATCH --error=<ruta_del_archivo>`**: Redirige la salida de errores (`stderr`) a un archivo.
+
+
+Incluyendo el Job ID
+```bash
+#SBATCH --output=resultado_%j.out
+#SBATCH --error=error_%j.err
+```
+
+**Si no especificas nada:** Slurm crea un archivo llamado `slurm-%j.out` en el directorio donde ejecutaste el comando `sbatch`, el cual contendrá tanto el `stdout` como el `stderr`
+**Redirección combinada:** Si quieres que tanto los errores como la salida normal vayan al mismo archivo, puedes omitir la directiva `#SBATCH --error` o usar el mismo nombre en ambas.
+>>>>>>> main
