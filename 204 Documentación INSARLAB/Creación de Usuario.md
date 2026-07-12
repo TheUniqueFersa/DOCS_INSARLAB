@@ -76,7 +76,7 @@ Reemplazar los valores entre `<>` por tus datos:
 > 	IdentityFile ~/.ssh/insar_key
 > ```
 
-Una vez hecho lo anterior, ahora podrás conectarte al Cluster
+Una vez hecho lo anterior, ahora podrás [[Conexión al cluster|conectarte al Cluster]]
 
 
 

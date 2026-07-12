@@ -81,8 +81,7 @@ Info about the complete cluster
 ## `sacct`
 Query information about jobs and users and other aspects of the environment
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 **Job scheduler**
 
 
@@ -155,8 +154,7 @@ Info about the complete cluster
 ## `sacct`
 Query information about jobs and users and other aspects of the environment
 
-=======
->>>>>>> main
+
 ## `scontrol`
 ### `show job <jobid>`
 
@@ -199,10 +197,8 @@ Redirecciona a nu fichero llamado `slurm-<JOBID>.out`
 
 # BEYOND
 - `screen`
-<<<<<<< HEAD
-=======
-=======
->>>>>>> main
+
+
 
 - **`#SBATCH --output=<ruta_del_archivo>`**: Redirige la salida estándar (`stdout`) a un archivo.
 
@@ -217,7 +213,4 @@ Incluyendo el Job ID
 
 **Si no especificas nada:** Slurm crea un archivo llamado `slurm-%j.out` en el directorio donde ejecutaste el comando `sbatch`, el cual contendrá tanto el `stdout` como el `stderr`
 **Redirección combinada:** Si quieres que tanto los errores como la salida normal vayan al mismo archivo, puedes omitir la directiva `#SBATCH --error` o usar el mismo nombre en ambas.
-<<<<<<< HEAD
->>>>>>> main
-=======
->>>>>>> main
+
