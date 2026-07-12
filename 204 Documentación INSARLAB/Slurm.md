@@ -1,4 +1,17 @@
-Hola soy slurm
+# **S**imple **L**inux **U**tility for **R**esource **M**anagement
+
+It works like a gatekeeper for job submission and resource allocation.
+Instead of the person directly loggin into the master node and risking accidental changes, they just submit their tasks via SLURM. SLURM will route their jobs to the approriate compute nodes.
+
+This way master is preserved for cluster management tasks.
+
+| Links útiles                                                                   |
+| ------------------------------------------------------------------------------ |
+| [Documentación oficial de Slurm](https://slurm.schedmd.com/documentation.html) |
+
+
+
+
 
 <<<<<<< HEAD
 **Job scheduler**
