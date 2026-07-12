@@ -199,6 +199,7 @@ Redirecciona a nu fichero llamado `slurm-<JOBID>.out`
 - `screen`
 
 
+
 - **`#SBATCH --output=<ruta_del_archivo>`**: Redirige la salida estándar (`stdout`) a un archivo.
 
 - **`#SBATCH --error=<ruta_del_archivo>`**: Redirige la salida de errores (`stderr`) a un archivo.

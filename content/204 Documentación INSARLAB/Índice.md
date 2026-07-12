@@ -6,7 +6,7 @@ banner: "![[insarlab.png]]"
 
 > [!summary] Bienvenid@
 > Te damos la bienvenida al manual de usuario del **inSAR lab**.
-> Este manual está hecho para aprender a ==manejar el [[Cluster Computing|Cluster]]==[^1] que resguarda el laboratorio.
+> Este manual está hecho para aprender a ==manejar el [[Cluster Computing|Cluster]]== [^1] que resguarda el laboratorio.
 
 
 Para aprender y entender más sobre el tema, se recomienda leer antes:
