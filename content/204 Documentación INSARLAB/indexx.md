@@ -1,9 +1,3 @@
-# Bienvenido a INSARLAB
-
-El nodo máster es exclusivamente para escribir código, compilar y enviar trabajos
-
-> [!caution]
-> Cualquier proceso pesado que se corra directamente en el máster sin usar Slurm será cancelado para evitar que el Cluster se caiga
 
 ## Comandos básicos
 

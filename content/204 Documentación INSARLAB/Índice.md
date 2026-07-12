@@ -1,6 +1,21 @@
+# Bienvenido a INSARLAB
+Te damos la bienvenida al manual de usuario de **INSARLAB**.
+
+Este manual está hecho para aprender a manejar 
+
+Para el uso del Cluster, es útil revisar lo siguiente:
+- [[Cluster Computing]]
+- [[Arquitectura del Cluster de INSARLAB]]
+- [[Slurm]]
+- 
+
+
+
+El nodo máster es exclusivamente para **escribir código**, **compilar** y **enviar trabajos**
+
+
 
 # Manual de Usuario
-
 > [!important]
 > Para poder utilizar el Cluster, [[Creación de Usuario|necesitas un usuario]]
 
@@ -10,9 +25,6 @@ Una vez que tengas :
 
 - [[#Configurar Llave para ingreso al Cluster]]
 - [[#Ingresar al Cluster]]
-
-
-
 
 - Usando slurm, encolar sus tareas
 - Proceso de creación de scripts con todas las directivas de SLURM
@@ -93,9 +105,9 @@ Donde nombreHost es el nombre que se le asignó al hostName del Cluster (`132.24
 > ```
 > 
 
->Supongase que el usuario `falcon` ingresó a Cluster
+>Supóngase que el usuario `falcon` ingresó a Cluster
 
-AL momento de ingresar, e prompt de la terminal se verá algo así;
+Al momento de ingresar, el prompt de la terminal se verá algo así;
 ```bash
 [falcon@master ~]$ 
 ```
