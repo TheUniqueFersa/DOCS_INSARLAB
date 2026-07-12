@@ -1,3 +1,6 @@
+> [!important]
+> Para poder utilizar el Cluster, [[Creación de Usuario|necesitas un usuario]]
+
 
 ## Comandos básicos
 

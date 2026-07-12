@@ -9,10 +9,79 @@ This way master is preserved for cluster management tasks.
 | ------------------------------------------------------------------------------ |
 | [Documentación oficial de Slurm](https://slurm.schedmd.com/documentation.html) |
 
+**Job scheduler**
+
+
+Manejar la cola
+
+Request jobs
+- Submits jobs into the queue
+### `-c <NUM CPUS>`
+Indica el número de CPUs
+
+Ejemplo
+```
+-c 10
+```
+
+### `--mem-per-cpu <mem>`
+Ejemplo
+```
+--mem-per-cpu 100M 
+```
+
+### `-t <time>`
+Por cuanto tiempo
+```
+-t 10:00
+```
+Para 10 minutos
+`3-0:0:0` -> 3 días
+
+
+# Comandos útiles
+## `sbatch`
+Llamada **no bloqueante**, lo ejecuta en segundo plano
+Ejemplo
+```
+sbatch -c 2 --mem-per-cpu 2G -t 5:0:0 \
+-J crunchy --wrap "python crunchy.py"
+```
+- `5:0:0` -> 5 horas
+- `-J` -> para nombrar el *job*
+
+
+- `--gres gpu` solicita **gpu**
+
+## `srun`
+**Llamada bloqueante**
+No podrás ejecutar la terminar, porque srun la bloquea
+
+## `salloc`
+Put a job in the queue
+Mismos comandos que [[#`sbatch`|sbatch]]
+
+---
+## `scancel`
+Cancel a job
+```
+scancel <JOBID>
+```
+--- 
+## `squeue`
+
+Queries de slurm queue
+Qué trabajos hay en la cola
+
+## `sinfo`
+Info about the complete cluster
 
 
 
+## `sacct`
+Query information about jobs and users and other aspects of the environment
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 **Job scheduler**
 
@@ -86,6 +155,8 @@ Info about the complete cluster
 ## `sacct`
 Query information about jobs and users and other aspects of the environment
 
+=======
+>>>>>>> main
 ## `scontrol`
 ### `show job <jobid>`
 
@@ -128,7 +199,10 @@ Redirecciona a nu fichero llamado `slurm-<JOBID>.out`
 
 # BEYOND
 - `screen`
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 
 - **`#SBATCH --output=<ruta_del_archivo>`**: Redirige la salida estándar (`stdout`) a un archivo.
 
@@ -143,4 +217,7 @@ Incluyendo el Job ID
 
 **Si no especificas nada:** Slurm crea un archivo llamado `slurm-%j.out` en el directorio donde ejecutaste el comando `sbatch`, el cual contendrá tanto el `stdout` como el `stderr`
 **Redirección combinada:** Si quieres que tanto los errores como la salida normal vayan al mismo archivo, puedes omitir la directiva `#SBATCH --error` o usar el mismo nombre en ambas.
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main

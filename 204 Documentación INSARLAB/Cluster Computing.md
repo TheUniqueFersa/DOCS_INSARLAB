@@ -22,8 +22,14 @@ verá:
 *¿hay espacio para correr este trabajo?*
 - Tendrá que esperar algun otro job para que acabe y haya más espacio
 
+<<<<<<< HEAD:204 Documentación INSARLAB/Cluster Computing.md
 
 ==Job priority==
 
 ---
 *inanición* 
+=======
+Job priority
+
+
+>>>>>>> main:ACADEMIC/Servicio Social/40 Legend/Cluster Computing.md
