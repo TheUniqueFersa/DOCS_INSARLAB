@@ -1,18 +1,16 @@
-# **S**imple **L**inux **U**tility for **R**esource **M**anagement
+Dentro de la variedad de planificadores que existen, InSAR lab utiliza **Slurm** (**S**imple **L**inux **U**tility for **R**esource **M**anagement). De acuerdo con su documentación oficial[^1], Slurm es un sistema de gestión de cargas de trabajo (_workload manager_) de código abierto, diseñado para ser tolerante a fallos y altamente escalable. Hoy en día es el estándar de la industria, utilizado por gran parte de los centros de supercómputo más grandes del mundo.
 
-It works like a gatekeeper for job submission and resource allocation.
-Instead of the person directly loggin into the master node and risking accidental changes, they just submit their tasks via SLURM. SLURM will route their jobs to the approriate compute nodes.
+Slurm se encarga de tres tareas fundamentales dentro de nuestra arquitectura:
 
-This way master is preserved for cluster management tasks.
+- **Asignación de recursos:** Otorga a los usuarios el acceso a los componentes de los nodos de cómputo durante un periodo de tiempo determinado para que puedan realizar sus cálculos o pruebas.
+- **Gestión de ejecución:** Proporciona un entorno estructurado y seguro para iniciar, ejecutar y monitorear el trabajo en los nodos que el sistema te ha asignado.
+- **Arbitraje de la cola:** Resuelve los conflictos de demanda administrando inteligentemente la fila de trabajos pendientes. Si hay más trabajo que recursos disponibles, Slurm decide qué tarea es la siguiente en ejecutarse basándose en reglas de prioridad y disponibilidad.
 
-| Links útiles                                                                   |
-| ------------------------------------------------------------------------------ |
-| [Documentación oficial de Slurm](https://slurm.schedmd.com/documentation.html) |
-
-**Job scheduler**
+Gracias a esta herramienta, como usuario del InSAR lab no tienes que preocuparte por conectarte nodo por nodo para ver cuál está desocupado. Simplemente empaquetas tu trabajo, le describes a Slurm qué recursos necesitas, y el sistema se encarga de acomodarlo y ejecutarlo en el momento ideal.
 
 
-Manejar la cola
+
+---
 
 Request jobs
 - Submits jobs into the queue
@@ -214,3 +212,4 @@ Incluyendo el Job ID
 **Si no especificas nada:** Slurm crea un archivo llamado `slurm-%j.out` en el directorio donde ejecutaste el comando `sbatch`, el cual contendrá tanto el `stdout` como el `stderr`
 **Redirección combinada:** Si quieres que tanto los errores como la salida normal vayan al mismo archivo, puedes omitir la directiva `#SBATCH --error` o usar el mismo nombre en ambas.
 
+[^1]: [Documentación oficial de Slurm](https://slurm.schedmd.com/documentation.html)
