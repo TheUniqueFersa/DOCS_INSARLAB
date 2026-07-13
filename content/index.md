@@ -1,5 +1,5 @@
 ---
-title: Welcome to Quartz
+title: Bienvenid@ a los manuales del inSAR
 ---
 
 This is a blank Quartz installation.
