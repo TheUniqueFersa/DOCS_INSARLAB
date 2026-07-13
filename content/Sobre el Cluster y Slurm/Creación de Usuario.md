@@ -2,7 +2,7 @@ Tu como usuario que utiliza el Cluster, NO puedes crear tu usuario por tu cuenta
 - Usuario
 - Llave de acceso `ssh`
 
-Una vez que tengas ambas, sigue leyendo y realizando lo que se solicita para poder tener acceso al cluster:
+Una vez que tengas ambas, sigue leyendo y realizando lo que se solicita para poder tener acceso al cluster.
 
 ---
 > [!attention]
@@ -26,22 +26,22 @@ En caso de no existir el directorio, crearlo con:
 mkdir ~/.ssh
 ```
 
-Deberás crear un archivo que guarde ***la llave*** proporcionada por el administrador.
+Deberás crear un archivo que guarde ***la llave*** proporcionada por el administrador. 
 Aunque puede nombrarse de cualquier forma, se sugiere `insar_key`
 
 > [!note] 
-> - Crear el archivo con
+> Crea el archivo con
 > ```bash
 > touch insar_key
 > ```
-> - Abrir con tu editor predeterminado, por ejemplo si usas `nvim`
+> Abre con tu editor predeterminado, por ejemplo si usas `nvim`
 > ```bash
-> nvim llave_insarlab
+> nvim insar_key
 > ```
 > 
-> - Una vez que abra la interfaz de nvim, pegar la llave en dicho archivo
+> Una vez que abra la interfaz de nvim, pega la llave en dicho archivo
 
-El archivo `llave_insarlab` terminaría viéndose algo así:
+El archivo `insar_key` terminaría viéndose algo así:
 
 ```
 -----BEGIN OPENSSH PRIVATE KEY-----
@@ -49,8 +49,7 @@ Aquí esta tu llave
 -----END OPENSSH PRIVATE KEY-----
 ```
 
-Guardar el contenido del archivo
-
+Guarda el contenido del archivo.
 
 ## Modificar el archivo `config` para poder ingresar bajo un *HostName*
 

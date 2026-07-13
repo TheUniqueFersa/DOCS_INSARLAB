@@ -10,16 +10,20 @@
 > 	IdentityFile ~/.ssh/insar_key
 > ```
 
-El comando para ingresar al cluster será:
+El comando para ingresar al cluster desde tu computadora personal será:
 ```bash
 ssh insarFalcon
 ```
 
 `ssh` detectará que el hostname `insarFalcon` está asociada con `132.248.59.7` gracias a la configuración previamente hecha, así como detectará que la llave de acceso es la especificada por `IdentityFile` y que el usuario que se loggeará será `falcon` .
 
-Al momento de ingresar, el prompt de la terminal se verá algo así;
+Al momento de ingresar, el prompt de la terminal se verá algo así:
 ```bash
 [falcon@master ~]$ 
 ```
 
 
+> [!success]
+> Una vez hayas ingresado[^1], ya podrás empezar a [[Uso del Cluster|enlistar tus tareas al Clúster]]
+
+[^1]: Recuerda la [[Lógica de trabajo en insarlab#Sobre el almacenamiento|lógica de tus carpetas]]
