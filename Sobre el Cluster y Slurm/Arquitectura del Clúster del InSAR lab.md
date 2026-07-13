@@ -37,5 +37,3 @@ Actualmente, el clúster está dividido en tres particiones principales a las qu
 
 
 En las siguientes secciones de este manual, aprenderemos paso a paso cómo comunicarnos con Slurm para configurar y enviar nuestros trabajos a cada una de estas particiones de la manera correcta.
-
-

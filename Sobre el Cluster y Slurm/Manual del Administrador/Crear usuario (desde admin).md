@@ -1,7 +1,7 @@
 > [!attention]
 > Las siguientes indicaciones las debe ejecutar un usuario administrador de INSARLAB
 
-Para crear un usuario $A$, y que este usuario $A$ pueda usar [[¿Qué es Slurm?|slurm]] para manejar el [[Arquitectura del Clúster del InSAR lab|cluster]], se deben seguir los siguientes pasos:
+Para crear un usuario $A$, y que este usuario $A$ pueda usar [[Qué es Slurm|slurm]] para manejar el [[Arquitectura del Clúster del InSAR lab|cluster]], se deben seguir los siguientes pasos:
 
 - Ingresar al cluster como el usuario `admin`[^1]
 - [[#Crear al usuario]]
@@ -116,7 +116,7 @@ id <NOMBRE_USUARIO>
 
 
 ---
-## Crear usuario en la Base de Datos de [[¿Qué es Slurm?]]
+## Crear usuario en la Base de Datos de [[Qué es Slurm]]
 
 ==Aún no confirmado==:
 ```

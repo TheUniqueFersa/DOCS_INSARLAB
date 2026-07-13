@@ -29,5 +29,4 @@ En un entorno como nuestro clúster, donde varios miembros del laboratorio neces
 Se puede pensar en el planificador como el coordinador central de los recursos. Es un software especializado que recibe las solicitudes de trabajo de todos los usuarios, revisa qué recursos del hardware están libres en ese momento (==cuántos núcleos, cuánta memoria, si la GPU está en uso==) y organiza una **fila de espera ordenada**. Su propósito principal es asegurar que cada proceso reciba lo que necesita para ejecutarse correctamente, *evitando que las tareas de distintos usuarios interfieran entre sí y garantizando que el clúster opere a su máxima capacidad sin sobrecargarse.*
 
 > [!info]
-> InSAR lab utiliza el job scheduler conocido como [[¿Qué es Slurm?]]
-
+> InSAR lab utiliza el job scheduler conocido como [[Qué es Slurm]]
