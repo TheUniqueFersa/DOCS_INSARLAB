@@ -1,5 +1,5 @@
 ---
-title: Bienvenid@ a los manuales del inSAR lab
+title: Bienvenid@ a los manuales del InSAR lab
 ---
 > [!cite] Equipo del InSAR lab
 > *Esta página forma parte de:* 
