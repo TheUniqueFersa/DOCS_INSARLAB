@@ -1,5 +1,5 @@
 > [!summary] Bienvenid@
-> Te damos la bienvenida al manual de usuario sobre el [[Arquitectura del Cluster del InSAR lab|cluster]] del **inSAR lab** y el uso de [[Que es Slurm|slurm]]
+> Te damos la bienvenida al manual de usuario sobre el [[Arquitectura del Cluster del InSAR lab|cluster]] del **InSAR lab** y el uso de [[Que es Slurm|slurm]]
 
 El laboratorio **InSAR** cuenta con un [[Cluster Computing|cluster]], en donde se realiza gran cantidad de procesamiento computacional.
 
