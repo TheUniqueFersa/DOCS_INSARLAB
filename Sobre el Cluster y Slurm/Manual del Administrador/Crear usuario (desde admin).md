@@ -128,4 +128,4 @@ sudo sacctmgr add user usuarioA account=insarlab_users
 
 
 
-[^1]: Con el comando `ssh admin@132.248.59.7` e ingresando la contraseña proporcionada por el equipo de trabajo INSAR
+[^1]: Con el comando `ssh admin@132.248.59.7` e ingresando la contraseña proporcionada por el equipo de trabajo InSAR
