@@ -1,3 +1,7 @@
+---
+title: Creación de Usuario
+---
+
 Tu como usuario que utiliza el Cluster, NO puedes crear tu usuario por tu cuenta, para esto *contacta con el usuario administrador*, quién te proporcionará:
 - Usuario
 - Llave de acceso `ssh`
@@ -75,8 +79,8 @@ Reemplazar los valores entre `<>` por tus datos:
 > 	IdentityFile ~/.ssh/insar_key
 > ```
 
-Una vez hecho lo anterior, ahora podrás [[Conexión al cluster|conectarte al Cluster]]
+Una vez hecho lo anterior, ahora podrás [[Conexion al cluster|conectarte al Cluster]]
 
 
 
-[^1]: Recuerda la [[Lógica de trabajo en insarlab#Sobre la conexión|lógica de equipos]]
+[^1]: Recuerda la [[Logica de trabajo en insarlab#Sobre la conexión|lógica de equipos]]
