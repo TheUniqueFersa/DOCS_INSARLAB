@@ -1986,155 +1986,95 @@
         "type": "split",
         "children": [
           {
-            "id": "0765dc3d75e2de44",
+            "id": "906bd0b0fbab33d3",
             "type": "split",
+            "dimension": 66.25964010282776,
             "children": [
               {
-                "id": "8a63a962dc45b9b8",
-                "type": "split",
-                "children": [
-                  {
-                    "id": "366c26332a97ce77",
-                    "type": "tabs",
-                    "children": [
-                      {
-                        "id": "93bff4f9049fa033",
-                        "type": "leaf",
-                        "state": {
-                          "type": "markdown",
-                          "state": {
-                            "file": "ACADEMIC/Servicio Social/10 About/Servicio Social (UNI).md",
-                            "mode": "source",
-                            "source": false,
-                            "backlinks": true,
-                            "backlinkOpts": {
-                              "collapseAll": false,
-                              "extraContext": false,
-                              "sortOrder": "alphabetical",
-                              "showSearch": false,
-                              "searchQuery": "",
-                              "backlinkCollapsed": false,
-                              "unlinkedCollapsed": true
-                            }
-                          },
-                          "icon": "lucide-file",
-                          "title": "Servicio Social (UNI)"
-                        }
-                      },
-                      {
-                        "id": "fd74b374960423e0",
-                        "type": "leaf",
-                        "state": {
-                          "type": "markdown",
-                          "state": {
-                            "file": "ACADEMIC/Servicio Social/30 Sesiones/SSI S6 Bienvenida PRO.md",
-                            "mode": "source",
-                            "source": false,
-                            "backlinks": true,
-                            "backlinkOpts": {
-                              "collapseAll": false,
-                              "extraContext": false,
-                              "sortOrder": "alphabetical",
-                              "showSearch": false,
-                              "searchQuery": "",
-                              "backlinkCollapsed": false,
-                              "unlinkedCollapsed": true
-                            }
-                          },
-                          "icon": "lucide-file",
-                          "title": "SSI S6 Bienvenida PRO"
-                        }
-                      },
-                      {
-                        "id": "b1977f3622bfe07c",
-                        "type": "leaf",
-                        "state": {
-                          "type": "markdown",
-                          "state": {
-                            "file": "ACADEMIC/Servicio Social/30 Sesiones/SSI S4S1.md",
-                            "mode": "source",
-                            "source": false,
-                            "backlinks": true,
-                            "backlinkOpts": {
-                              "collapseAll": false,
-                              "extraContext": false,
-                              "sortOrder": "alphabetical",
-                              "showSearch": false,
-                              "searchQuery": "",
-                              "backlinkCollapsed": false,
-                              "unlinkedCollapsed": true
-                            }
-                          },
-                          "icon": "lucide-file",
-                          "title": "SSI S4S1"
-                        }
-                      }
-                    ],
-                    "currentTab": 2
-                  },
-                  {
-                    "id": "6114eabfb0aaf9fd",
-                    "type": "tabs",
-                    "children": [
-                      {
-                        "id": "2f8029e2cd74767a",
-                        "type": "leaf",
-                        "state": {
-                          "type": "markdown",
-                          "state": {
-                            "file": "ACADEMIC/Servicio Social/30 Sesiones/SSI S13S1.md",
-                            "mode": "source",
-                            "source": false,
-                            "backlinks": true,
-                            "backlinkOpts": {
-                              "collapseAll": false,
-                              "extraContext": false,
-                              "sortOrder": "alphabetical",
-                              "showSearch": false,
-                              "searchQuery": "",
-                              "backlinkCollapsed": false,
-                              "unlinkedCollapsed": true
-                            }
-                          },
-                          "icon": "lucide-file",
-                          "title": "SSI S13S1"
-                        }
-                      },
-                      {
-                        "id": "eb00cf6736a2a830",
-                        "type": "leaf",
-                        "state": {
-                          "type": "markdown",
-                          "state": {
-                            "file": "ACADEMIC/Servicio Social/30 Sesiones/SSI - NOTAS DE SESIÓN.md",
-                            "mode": "source",
-                            "source": false,
-                            "backlinks": true,
-                            "backlinkOpts": {
-                              "collapseAll": false,
-                              "extraContext": false,
-                              "sortOrder": "alphabetical",
-                              "showSearch": false,
-                              "searchQuery": "",
-                              "backlinkCollapsed": false,
-                              "unlinkedCollapsed": true
-                            }
-                          },
-                          "icon": "lucide-file",
-                          "title": "SSI - NOTAS DE SESIÓN"
-                        }
-                      }
-                    ]
-                  }
-                ],
-                "direction": "vertical"
-              },
-              {
-                "id": "55fce6a4efae4afb",
+                "id": "a2ae72a7a010dc43",
                 "type": "tabs",
                 "children": [
                   {
-                    "id": "3ae4eabb2f16f802",
+                    "id": "fd495b147fdf5717",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "ACADEMIC/Servicio Social/10 About/Servicio Social (UNI).md",
+                        "mode": "source",
+                        "source": false,
+                        "backlinks": true,
+                        "backlinkOpts": {
+                          "collapseAll": false,
+                          "extraContext": false,
+                          "sortOrder": "alphabetical",
+                          "showSearch": false,
+                          "searchQuery": "",
+                          "backlinkCollapsed": false,
+                          "unlinkedCollapsed": true
+                        }
+                      },
+                      "icon": "lucide-file",
+                      "title": "Servicio Social (UNI)"
+                    }
+                  },
+                  {
+                    "id": "ed0e2fec2d24790f",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "ACADEMIC/Servicio Social/30 Sesiones/SSI S6 Bienvenida PRO.md",
+                        "mode": "source",
+                        "source": false,
+                        "backlinks": true,
+                        "backlinkOpts": {
+                          "collapseAll": false,
+                          "extraContext": false,
+                          "sortOrder": "alphabetical",
+                          "showSearch": false,
+                          "searchQuery": "",
+                          "backlinkCollapsed": false,
+                          "unlinkedCollapsed": true
+                        }
+                      },
+                      "icon": "lucide-file",
+                      "title": "SSI S6 Bienvenida PRO"
+                    }
+                  },
+                  {
+                    "id": "1916d646b1f9658b",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "ACADEMIC/Servicio Social/30 Sesiones/SSI S4S1.md",
+                        "mode": "source",
+                        "source": false,
+                        "backlinks": true,
+                        "backlinkOpts": {
+                          "collapseAll": false,
+                          "extraContext": false,
+                          "sortOrder": "alphabetical",
+                          "showSearch": false,
+                          "searchQuery": "",
+                          "backlinkCollapsed": false,
+                          "unlinkedCollapsed": true
+                        }
+                      },
+                      "icon": "lucide-file",
+                      "title": "SSI S4S1"
+                    }
+                  }
+                ],
+                "currentTab": 2
+              },
+              {
+                "id": "5fb56032e6e19bb5",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "35935c1639d0a081",
                     "type": "leaf",
                     "state": {
                       "type": "kanban",
@@ -2162,6 +2102,37 @@
               }
             ],
             "direction": "horizontal"
+          },
+          {
+            "id": "b7293f5652e602d1",
+            "type": "tabs",
+            "dimension": 33.74035989717223,
+            "children": [
+              {
+                "id": "c391a66ac7921926",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "ACADEMIC/Servicio Social/30 Sesiones/SSI S13S1.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "SSI S13S1"
+                }
+              }
+            ]
           }
         ],
         "direction": "vertical"
@@ -2184,7 +2155,7 @@
                     "autoReveal": true
                   },
                   "icon": "lucide-folder-closed",
-                  "title": "Files"
+                  "title": "Explorador de archivos"
                 }
               },
               {
@@ -2193,7 +2164,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "libgen",
+                    "query": "gato",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -2263,7 +2234,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "ACADEMIC/Servicio Social/30 Sesiones/SSI S4S1.md",
+                    "file": "ACADEMIC/Servicio Social/30 Sesiones/SSI S13S1.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -2273,7 +2244,7 @@
                     "unlinkedCollapsed": true
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for SSI S4S1"
+                  "title": "Enlaces entrantes de SSI S13S1"
                 }
               },
               {
@@ -2326,8 +2297,8 @@
                   "state": {
                     "file": "Previo 1.md"
                   },
-                  "icon": "lucide-file-signature",
-                  "title": "Footnotes"
+                  "icon": "lucide-ghost",
+                  "title": "footnotes"
                 }
               },
               {
@@ -2370,1792 +2341,7 @@
                   "type": "empty",
                   "state": {},
                   "icon": "lucide-file",
-                  "title": "New tab"
-                }
-              }
-            ]
-          },
-          {
-            "id": "078c8ece9e289e0e",
-            "type": "tabs",
-            "dimension": 33.333333333333336,
-            "children": [
-              {
-                "id": "697f74f4e340dc50",
-                "type": "leaf",
-                "state": {
-                  "type": "calendar",
-                  "state": {},
-                  "icon": "calendar-with-checkmark",
-                  "title": "Calendar"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 454.5,
-        "collapsed": true
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "switcher:Open quick switcher": false,
-          "graph:Open graph view": false,
-          "canvas:Create new canvas": false,
-          "daily-notes:Open today's daily note": false,
-          "templates:Insert template": false,
-          "command-palette:Open command palette": false,
-          "bases:Create new base": false,
-          "table-editor-obsidian:Advanced Tables Toolbar": false,
-          "homepage:Open homepage": false,
-          "obsidian-kanban:Create new board": false,
-          "pomodoro-timer:Toggle timer panel": false,
-          "templater-obsidian:Templater": false,
-          "obsidian-excalidraw-plugin:New drawing": false,
-          "obsidian-advanced-slides:Show Slide Preview": false,
-          "workspaces:Manage workspace layouts": false,
-          "periodic-notes:Open today": false
-        }
-      },
-      "active": "b1977f3622bfe07c",
-      "mtime": "2026-07-07T20:48:04-06:00",
-      "workspaces-plus:settings-v1": {
-        "explorerFoldState": [
-          "200 FUERTE",
-          "200 FUERTE/♣CURSOS FI",
-          "200 FUERTE/♣CURSOS FI/Verano 2026",
-          "400 TODO",
-          "400 TODO/410 GB",
-          "400 TODO/410 GB/♠Great Binnacle",
-          "400 TODO/410 GB/♠Great Binnacle/Sesiones",
-          "ACADEMIC",
-          "ACADEMIC/6° Semestre",
-          "ACADEMIC/6° Semestre/Circuitos Electricos",
-          "ACADEMIC/6° Semestre/Circuitos Electricos/10 About",
-          "ACADEMIC/6° Semestre/DDM",
-          "ACADEMIC/6° Semestre/DDM/10 About"
-        ]
-      }
-    },
-    "CONTA": {
-      "main": {
-        "id": "5324373015726ba8",
-        "type": "split",
-        "children": [
-          {
-            "id": "b6cd260480171a23",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "4fe9d904e14c4f1b",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "200 FUERTE/♣CURSOS FI/CURSOS FI.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "CURSOS FI"
-                }
-              },
-              {
-                "id": "ef95ec69400ad783",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "200 FUERTE/♣CURSOS FI/Verano 2026/CFI Cursos FI Verano 2026.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "CFI Cursos FI Verano 2026"
-                }
-              },
-              {
-                "id": "70bb0fd08b4b89b0",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "200 FUERTE/♣CURSOS FI/Verano 2026/Cursos FI Verano 2026 - Álgebra.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Cursos FI Verano 2026 - Álgebra"
-                }
-              },
-              {
-                "id": "8c77c5d86a3d981e",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "400 TODO/410 GB/♠Great Binnacle/Sesiones/01-07-2026.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "01-07-2026"
-                }
-              },
-              {
-                "id": "1cab4e29f7be94c2",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "400 TODO/410 GB/♠Great Binnacle/Sesiones/07-07-2026.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "07-07-2026"
-                }
-              }
-            ],
-            "currentTab": 4
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "6e772eb7bc504067",
-        "type": "split",
-        "children": [
-          {
-            "id": "0e63115031220b50",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "8652c2e00cd996be",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical",
-                    "autoReveal": true
-                  },
-                  "icon": "lucide-folder-closed",
-                  "title": "Files"
-                }
-              },
-              {
-                "id": "01df9646113b3b03",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "libgen",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical"
-                  },
-                  "icon": "lucide-search",
-                  "title": "Search"
-                }
-              }
-            ]
-          },
-          {
-            "id": "a856e70b7bb5c69f",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "8635cb302470e2ae",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {},
-                  "icon": "lucide-bookmark",
-                  "title": "Bookmarks"
-                }
-              },
-              {
-                "id": "8b4d21f10f9c80d8",
-                "type": "leaf",
-                "state": {
-                  "type": "recent-files",
-                  "state": {},
-                  "icon": "clock",
-                  "title": "Recent Files"
-                }
-              },
-              {
-                "id": "036e0061a4e77de9",
-                "type": "leaf",
-                "state": {
-                  "type": "timer-view",
-                  "state": {},
-                  "icon": "timer",
-                  "title": "Timer"
-                }
-              }
-            ],
-            "currentTab": 2
-          }
-        ],
-        "direction": "horizontal",
-        "width": 306.5,
-        "collapsed": true
-      },
-      "right": {
-        "id": "09777d773c243dae",
-        "type": "split",
-        "children": [
-          {
-            "id": "a06a396bdeaa04bb",
-            "type": "tabs",
-            "dimension": 22.222222222222225,
-            "children": [
-              {
-                "id": "1491f040291c2507",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "400 TODO/410 GB/♠Great Binnacle/Sesiones/07-07-2026.md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-coming-in",
-                  "title": "Backlinks for 07-07-2026"
-                }
-              },
-              {
-                "id": "6020cbd1dcb43896",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-going-out",
-                  "title": "Outgoing links"
-                }
-              },
-              {
-                "id": "a18effb49b60c62c",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-tags",
-                  "title": "Tags"
-                }
-              },
-              {
-                "id": "d547e49c958f086f",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "followCursor": false,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-list",
-                  "title": "Outline"
-                }
-              },
-              {
-                "id": "f8972c5ebf1edc80",
-                "type": "leaf",
-                "state": {
-                  "type": "footnotes",
-                  "state": {
-                    "file": "Previo 1.md"
-                  },
-                  "icon": "lucide-file-signature",
-                  "title": "Footnotes"
-                }
-              },
-              {
-                "id": "4931ccdc0a338970",
-                "type": "leaf",
-                "state": {
-                  "type": "all-properties",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-archive",
-                  "title": "All properties"
-                }
-              },
-              {
-                "id": "c6c1a038c9e8dd3b",
-                "type": "leaf",
-                "state": {
-                  "type": "file-properties",
-                  "state": {
-                    "file": "ACADEMIC/6° Semestre/Sistemas Operativos (SO)/10 About/SO - NOTAS DE SESIÓN.md"
-                  },
-                  "icon": "lucide-info",
-                  "title": "File properties for SO - NOTAS DE SESIÓN"
-                }
-              }
-            ]
-          },
-          {
-            "id": "175ad40cb450a89d",
-            "type": "tabs",
-            "dimension": 44.44444444444445,
-            "children": [
-              {
-                "id": "588bf362fb826377",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "New tab"
-                }
-              }
-            ]
-          },
-          {
-            "id": "078c8ece9e289e0e",
-            "type": "tabs",
-            "dimension": 33.333333333333336,
-            "children": [
-              {
-                "id": "697f74f4e340dc50",
-                "type": "leaf",
-                "state": {
-                  "type": "calendar",
-                  "state": {},
-                  "icon": "calendar-with-checkmark",
-                  "title": "Calendar"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 454.5,
-        "collapsed": true
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "switcher:Open quick switcher": false,
-          "graph:Open graph view": false,
-          "canvas:Create new canvas": false,
-          "daily-notes:Open today's daily note": false,
-          "templates:Insert template": false,
-          "command-palette:Open command palette": false,
-          "bases:Create new base": false,
-          "table-editor-obsidian:Advanced Tables Toolbar": false,
-          "homepage:Open homepage": false,
-          "obsidian-kanban:Create new board": false,
-          "pomodoro-timer:Toggle timer panel": false,
-          "templater-obsidian:Templater": false,
-          "obsidian-excalidraw-plugin:New drawing": false,
-          "obsidian-advanced-slides:Show Slide Preview": false,
-          "workspaces:Manage workspace layouts": false,
-          "periodic-notes:Open today": false
-        }
-      },
-      "active": "1cab4e29f7be94c2",
-      "mtime": "2026-07-07T20:46:03-06:00",
-      "workspaces-plus:settings-v1": {
-        "explorerFoldState": [
-          "200 FUERTE",
-          "200 FUERTE/♣CURSOS FI",
-          "200 FUERTE/♣CURSOS FI/Verano 2026",
-          "400 TODO",
-          "400 TODO/410 GB",
-          "400 TODO/410 GB/♠Great Binnacle",
-          "400 TODO/410 GB/♠Great Binnacle/Sesiones",
-          "ACADEMIC",
-          "ACADEMIC/6° Semestre",
-          "ACADEMIC/6° Semestre/Circuitos Electricos",
-          "ACADEMIC/6° Semestre/Circuitos Electricos/10 About",
-          "ACADEMIC/6° Semestre/DDM",
-          "ACADEMIC/6° Semestre/DDM/10 About"
-        ]
-      }
-    },
-    "CW26": {
-      "main": {
-        "id": "5324373015726ba8",
-        "type": "split",
-        "children": [
-          {
-            "id": "b6cd260480171a23",
-            "type": "tabs",
-            "dimension": 44.8586118251928,
-            "children": [
-              {
-                "id": "af0e8a83408d2acc",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "200 FUERTE/210 1'S/211 FR/EL NUEVO CURSO WEB/CURSO WEB 2026.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "CURSO WEB 2026"
-                }
-              },
-              {
-                "id": "1ce6a7cbaf2a2e98",
-                "type": "leaf",
-                "state": {
-                  "type": "kanban",
-                  "state": {
-                    "file": "200 FUERTE/210 1'S/211 FR/EL NUEVO CURSO WEB/CW26/Kanban - CW26.md",
-                    "kanbanViewState": {
-                      "kanban-plugin": "board",
-                      "list-collapse": [
-                        false,
-                        null,
-                        null,
-                        false,
-                        false,
-                        true
-                      ]
-                    }
-                  },
-                  "icon": "lucide-trello",
-                  "title": "Kanban - CW26"
-                }
-              },
-              {
-                "id": "d1d3c1b8005d0f96",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "400 TODO/410 GB/♠Great Binnacle/Sesiones/09-06-2026.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "09-06-2026"
-                }
-              },
-              {
-                "id": "21858462d04b1c26",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "200 FUERTE/210 1'S/211 FR/EL NUEVO CURSO WEB/CW26/CW26 - Equipo 10 (DechTech).md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "CW26 - Equipo 10 (DechTech)"
-                }
-              },
-              {
-                "id": "f2c3d450b5833072",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "200 FUERTE/210 1'S/211 FR/EL NUEVO CURSO WEB/CW26/DechTech.NS - Martes {09-06-2026}.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "DechTech.NS - Martes {09-06-2026}"
-                }
-              },
-              {
-                "id": "7bccaf544e56529f",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "200 FUERTE/210 1'S/211 FR/EL NUEVO CURSO WEB/CW26/DechTech - Traduciendo Wireframes.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "DechTech - Traduciendo Wireframes"
-                }
-              },
-              {
-                "id": "4fe9d904e14c4f1b",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "200 FUERTE/♣CURSOS FI/CURSOS FI.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "CURSOS FI"
-                }
-              },
-              {
-                "id": "ef95ec69400ad783",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "200 FUERTE/♣CURSOS FI/Verano 2026/CFI Cursos FI Verano 2026.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "CFI Cursos FI Verano 2026"
-                }
-              },
-              {
-                "id": "70bb0fd08b4b89b0",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "200 FUERTE/♣CURSOS FI/Verano 2026/Cursos FI Verano 2026 - Álgebra.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Cursos FI Verano 2026 - Álgebra"
-                }
-              },
-              {
-                "id": "a93d40283a359699",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "202 CFI_E26_CI/1. Integrales definidas e indefinidas.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "1. Integrales definidas e indefinidas"
-                }
-              },
-              {
-                "id": "7bbabc61547b1186",
-                "type": "leaf",
-                "state": {
-                  "type": "kanban",
-                  "state": {
-                    "file": "400 TODO/430 KANBANS/Kanban - FIX REM I.md",
-                    "kanbanViewState": {
-                      "kanban-plugin": "board",
-                      "list-collapse": [
-                        false,
-                        null,
-                        null,
-                        false,
-                        false,
-                        false,
-                        false,
-                        false,
-                        false,
-                        false,
-                        false,
-                        false
-                      ]
-                    }
-                  },
-                  "icon": "lucide-trello",
-                  "title": "Kanban - FIX REM I"
-                }
-              },
-              {
-                "id": "0035fc2d09b0952f",
-                "type": "leaf",
-                "state": {
-                  "type": "kanban",
-                  "state": {
-                    "file": "500 PROC/IMM. PERFILES (PROC).md",
-                    "kanbanViewState": {
-                      "kanban-plugin": "board",
-                      "list-collapse": [
-                        false,
-                        null,
-                        null,
-                        false
-                      ]
-                    }
-                  },
-                  "icon": "lucide-trello",
-                  "title": "IMM. PERFILES (PROC)"
-                }
-              },
-              {
-                "id": "4dc28eb81552a285",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "400 TODO/410 GB/♠Great Binnacle/Sesiones/22-06-2026.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "22-06-2026"
-                }
-              },
-              {
-                "id": "e7a71935387a5639",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "800 TUNEL/INSTRUCTOR CURSOS FI 2025 Verano.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "INSTRUCTOR CURSOS FI 2025 Verano"
-                }
-              },
-              {
-                "id": "c1aa4f44843d90fb",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "200 FUERTE/210 1'S/211 FR/EL NUEVO CURSO WEB/CURSO WEB 2026.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "CURSO WEB 2026"
-                }
-              },
-              {
-                "id": "c3562fcb645e0a0e",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "200 FUERTE/210 1'S/211 FR/EL NUEVO CURSO WEB/CW26/Presentación de Forma de trabajo en equipo Equipo 6 y Equipo 10.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Presentación de Forma de trabajo en equipo Equipo 6 y Equipo 10"
-                }
-              }
-            ],
-            "currentTab": 15
-          },
-          {
-            "id": "0787d192c61326e1",
-            "type": "tabs",
-            "dimension": 55.14138817480719,
-            "children": [
-              {
-                "id": "acee9577128b0863",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "200 FUERTE/♣CURSOS FI/Enero 2026 (Invierno)/Cursos FI Invierno 2026 - Álgebra Lineal.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Cursos FI Invierno 2026 - Álgebra Lineal"
-                }
-              },
-              {
-                "id": "6b3103470816714c",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "200 FUERTE/♣CURSOS FI/Enero 2026 (Invierno)/Calculo Integral/Cursos FI E2026 - Cálculo Integral.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Cursos FI E2026 - Cálculo Integral"
-                }
-              },
-              {
-                "id": "e72b5a30e6a865bf",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "200 FUERTE/210 1'S/211 FR/EL NUEVO CURSO WEB/CW26/DechTech.NS - Martes {09-06-2026}.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "DechTech.NS - Martes {09-06-2026}"
-                }
-              },
-              {
-                "id": "ef914d3534e7c74a",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "200 FUERTE/210 1'S/211 FR/EL NUEVO CURSO WEB/CW26/CW26 - Equipo 10 (DechTech).md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "CW26 - Equipo 10 (DechTech)"
-                }
-              },
-              {
-                "id": "2f28febaad934b18",
-                "type": "leaf",
-                "state": {
-                  "type": "kanban",
-                  "state": {
-                    "file": "200 FUERTE/210 1'S/211 FR/EL NUEVO CURSO WEB/CW26/Kanban - DechTech.md",
-                    "kanbanViewState": {
-                      "kanban-plugin": "board",
-                      "list-collapse": [
-                        true,
-                        null,
-                        null,
-                        false,
-                        false
-                      ]
-                    }
-                  },
-                  "icon": "lucide-trello",
-                  "title": "Kanban - DechTech"
-                }
-              },
-              {
-                "id": "3a3f737ede62672e",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "200 FUERTE/210 1'S/211 FR/EL NUEVO CURSO WEB/CW26/CW26 - Equipo 4 (StatHorses).md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "CW26 - Equipo 4 (StatHorses)"
-                }
-              },
-              {
-                "id": "b103bcaa1d02df07",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "200 FUERTE/210 1'S/211 FR/EL NUEVO CURSO WEB/CW26/CW26 - Equipo 4 (StatHorses).md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "CW26 - Equipo 4 (StatHorses)"
-                }
-              }
-            ],
-            "currentTab": 6
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "6e772eb7bc504067",
-        "type": "split",
-        "children": [
-          {
-            "id": "0e63115031220b50",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "8652c2e00cd996be",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical",
-                    "autoReveal": true
-                  },
-                  "icon": "lucide-folder-closed",
-                  "title": "Files"
-                }
-              },
-              {
-                "id": "01df9646113b3b03",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "tag:#FERSA",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical"
-                  },
-                  "icon": "lucide-search",
-                  "title": "Search"
-                }
-              }
-            ]
-          },
-          {
-            "id": "a856e70b7bb5c69f",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "8635cb302470e2ae",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {},
-                  "icon": "lucide-bookmark",
-                  "title": "Bookmarks"
-                }
-              },
-              {
-                "id": "8b4d21f10f9c80d8",
-                "type": "leaf",
-                "state": {
-                  "type": "recent-files",
-                  "state": {},
-                  "icon": "clock",
-                  "title": "Recent Files"
-                }
-              },
-              {
-                "id": "036e0061a4e77de9",
-                "type": "leaf",
-                "state": {
-                  "type": "timer-view",
-                  "state": {},
-                  "icon": "timer",
-                  "title": "Timer"
-                }
-              }
-            ],
-            "currentTab": 2
-          }
-        ],
-        "direction": "horizontal",
-        "width": 306.5,
-        "collapsed": true
-      },
-      "right": {
-        "id": "09777d773c243dae",
-        "type": "split",
-        "children": [
-          {
-            "id": "a06a396bdeaa04bb",
-            "type": "tabs",
-            "dimension": 22.222222222222225,
-            "children": [
-              {
-                "id": "1491f040291c2507",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "200 FUERTE/210 1'S/211 FR/EL NUEVO CURSO WEB/CW26/Presentación de Forma de trabajo en equipo Equipo 6 y Equipo 10.md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-coming-in",
-                  "title": "Backlinks for Presentación de Forma de trabajo en equipo Equipo 6 y Equipo 10"
-                }
-              },
-              {
-                "id": "6020cbd1dcb43896",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-going-out",
-                  "title": "Outgoing links"
-                }
-              },
-              {
-                "id": "a18effb49b60c62c",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-tags",
-                  "title": "Tags"
-                }
-              },
-              {
-                "id": "d547e49c958f086f",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "followCursor": false,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-list",
-                  "title": "Outline"
-                }
-              },
-              {
-                "id": "f8972c5ebf1edc80",
-                "type": "leaf",
-                "state": {
-                  "type": "footnotes",
-                  "state": {
-                    "file": "Previo 1.md"
-                  },
-                  "icon": "lucide-file-signature",
-                  "title": "Footnotes"
-                }
-              },
-              {
-                "id": "4931ccdc0a338970",
-                "type": "leaf",
-                "state": {
-                  "type": "all-properties",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-archive",
-                  "title": "All properties"
-                }
-              },
-              {
-                "id": "c6c1a038c9e8dd3b",
-                "type": "leaf",
-                "state": {
-                  "type": "file-properties",
-                  "state": {
-                    "file": "ACADEMIC/6° Semestre/Sistemas Operativos (SO)/10 About/SO - NOTAS DE SESIÓN.md"
-                  },
-                  "icon": "lucide-info",
-                  "title": "File properties for SO - NOTAS DE SESIÓN"
-                }
-              }
-            ]
-          },
-          {
-            "id": "175ad40cb450a89d",
-            "type": "tabs",
-            "dimension": 44.44444444444445,
-            "children": [
-              {
-                "id": "588bf362fb826377",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "New tab"
-                }
-              }
-            ]
-          },
-          {
-            "id": "078c8ece9e289e0e",
-            "type": "tabs",
-            "dimension": 33.333333333333336,
-            "children": [
-              {
-                "id": "697f74f4e340dc50",
-                "type": "leaf",
-                "state": {
-                  "type": "calendar",
-                  "state": {},
-                  "icon": "calendar-with-checkmark",
-                  "title": "Calendar"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 454.5,
-        "collapsed": true
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "switcher:Open quick switcher": false,
-          "graph:Open graph view": false,
-          "canvas:Create new canvas": false,
-          "daily-notes:Open today's daily note": false,
-          "templates:Insert template": false,
-          "command-palette:Open command palette": false,
-          "bases:Create new base": false,
-          "table-editor-obsidian:Advanced Tables Toolbar": false,
-          "homepage:Open homepage": false,
-          "obsidian-kanban:Create new board": false,
-          "pomodoro-timer:Toggle timer panel": false,
-          "templater-obsidian:Templater": false,
-          "obsidian-excalidraw-plugin:New drawing": false,
-          "obsidian-advanced-slides:Show Slide Preview": false,
-          "workspaces:Manage workspace layouts": false,
-          "periodic-notes:Open today": false
-        }
-      },
-      "active": "c3562fcb645e0a0e",
-      "mtime": "2026-06-23T06:21:39-06:00",
-      "workspaces-plus:settings-v1": {
-        "explorerFoldState": [
-          "200 FUERTE",
-          "200 FUERTE/♣CURSOS FI",
-          "200 FUERTE/♣CURSOS FI/Enero 2026 (Invierno)",
-          "200 FUERTE/♣CURSOS FI/Verano 2026",
-          "200 FUERTE/210 1'S",
-          "200 FUERTE/210 1'S/211 FR",
-          "200 FUERTE/210 1'S/211 FR/EL NUEVO CURSO WEB",
-          "400 TODO",
-          "400 TODO/410 GB",
-          "400 TODO/410 GB/♠Great Binnacle",
-          "400 TODO/410 GB/♠Great Binnacle/Sesiones",
-          "500 PROC",
-          "500 PROC/520 DET"
-        ]
-      }
-    },
-    "DECHTECH": {
-      "main": {
-        "id": "5324373015726ba8",
-        "type": "split",
-        "children": [
-          {
-            "id": "b6cd260480171a23",
-            "type": "tabs",
-            "dimension": 40.4241645244216,
-            "children": [
-              {
-                "id": "af0e8a83408d2acc",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "200 FUERTE/210 1'S/211 FR/EL NUEVO CURSO WEB/CURSO WEB 2026.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "CURSO WEB 2026"
-                }
-              },
-              {
-                "id": "1ce6a7cbaf2a2e98",
-                "type": "leaf",
-                "state": {
-                  "type": "kanban",
-                  "state": {
-                    "file": "200 FUERTE/210 1'S/211 FR/EL NUEVO CURSO WEB/CW26/Kanban - CW26.md",
-                    "kanbanViewState": {
-                      "kanban-plugin": "board",
-                      "list-collapse": [
-                        false,
-                        null,
-                        null,
-                        false,
-                        false,
-                        true
-                      ]
-                    }
-                  },
-                  "icon": "lucide-trello",
-                  "title": "Kanban - CW26"
-                }
-              },
-              {
-                "id": "d1d3c1b8005d0f96",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "400 TODO/410 GB/♠Great Binnacle/Sesiones/09-06-2026.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "09-06-2026"
-                }
-              },
-              {
-                "id": "21858462d04b1c26",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "200 FUERTE/210 1'S/211 FR/EL NUEVO CURSO WEB/CW26/CW26 - Equipo 10 (DechTech).md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "CW26 - Equipo 10 (DechTech)"
-                }
-              },
-              {
-                "id": "f2c3d450b5833072",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "200 FUERTE/210 1'S/211 FR/EL NUEVO CURSO WEB/CW26/DechTech.NS - Martes {09-06-2026}.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "DechTech.NS - Martes {09-06-2026}"
-                }
-              },
-              {
-                "id": "7bccaf544e56529f",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "200 FUERTE/210 1'S/211 FR/EL NUEVO CURSO WEB/CW26/DechTech - Traduciendo Wireframes.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "DechTech - Traduciendo Wireframes"
-                }
-              },
-              {
-                "id": "f2f75eaf45cfc86d",
-                "type": "leaf",
-                "state": {
-                  "type": "kanban",
-                  "state": {
-                    "file": "200 FUERTE/210 1'S/211 FR/EL NUEVO CURSO WEB/CW26/Kanban - DechTech.md",
-                    "kanbanViewState": {
-                      "kanban-plugin": "board",
-                      "list-collapse": [
-                        false,
-                        null,
-                        null,
-                        false,
-                        true
-                      ]
-                    }
-                  },
-                  "icon": "lucide-trello",
-                  "title": "Kanban - DechTech"
-                }
-              }
-            ],
-            "currentTab": 6
-          },
-          {
-            "id": "a1e96aba99f58d18",
-            "type": "tabs",
-            "dimension": 59.57583547557841,
-            "children": [
-              {
-                "id": "f2ea465d74108211",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "CW26.DECHTECH - Entendiendo ramas y archivos.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "CW26.DECHTECH - Entendiendo ramas y archivos"
-                }
-              },
-              {
-                "id": "3a73db7faaa8c514",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "200 FUERTE/210 1'S/211 FR/EL NUEVO CURSO WEB/CW26/DECHTECH.NS - Jueves {11-06-2026}.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "DECHTECH.NS - Jueves {11-06-2026}"
-                }
-              },
-              {
-                "id": "eb71461535e758bd",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "200 FUERTE/210 1'S/211 FR/EL NUEVO CURSO WEB/CW26/DechTech - Traduciendo Wireframes.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "DechTech - Traduciendo Wireframes"
-                }
-              }
-            ],
-            "currentTab": 2
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "6e772eb7bc504067",
-        "type": "split",
-        "children": [
-          {
-            "id": "0e63115031220b50",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "8652c2e00cd996be",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical",
-                    "autoReveal": true
-                  },
-                  "icon": "lucide-folder-closed",
-                  "title": "Files"
-                }
-              },
-              {
-                "id": "01df9646113b3b03",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "tag:#FERSA",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical"
-                  },
-                  "icon": "lucide-search",
-                  "title": "Search"
-                }
-              }
-            ],
-            "currentTab": 1
-          },
-          {
-            "id": "a856e70b7bb5c69f",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "8635cb302470e2ae",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {},
-                  "icon": "lucide-bookmark",
-                  "title": "Bookmarks"
-                }
-              },
-              {
-                "id": "8b4d21f10f9c80d8",
-                "type": "leaf",
-                "state": {
-                  "type": "recent-files",
-                  "state": {},
-                  "icon": "clock",
-                  "title": "Recent Files"
-                }
-              },
-              {
-                "id": "036e0061a4e77de9",
-                "type": "leaf",
-                "state": {
-                  "type": "timer-view",
-                  "state": {},
-                  "icon": "timer",
-                  "title": "Timer"
-                }
-              }
-            ],
-            "currentTab": 2
-          }
-        ],
-        "direction": "horizontal",
-        "width": 306.5,
-        "collapsed": true
-      },
-      "right": {
-        "id": "09777d773c243dae",
-        "type": "split",
-        "children": [
-          {
-            "id": "a06a396bdeaa04bb",
-            "type": "tabs",
-            "dimension": 22.222222222222225,
-            "children": [
-              {
-                "id": "1491f040291c2507",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "200 FUERTE/210 1'S/211 FR/EL NUEVO CURSO WEB/CW26/DechTech - Traduciendo Wireframes.md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-coming-in",
-                  "title": "Backlinks for DechTech - Traduciendo Wireframes"
-                }
-              },
-              {
-                "id": "6020cbd1dcb43896",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-going-out",
-                  "title": "Outgoing links"
-                }
-              },
-              {
-                "id": "a18effb49b60c62c",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-tags",
-                  "title": "Tags"
-                }
-              },
-              {
-                "id": "d547e49c958f086f",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "followCursor": false,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-list",
-                  "title": "Outline"
-                }
-              },
-              {
-                "id": "f8972c5ebf1edc80",
-                "type": "leaf",
-                "state": {
-                  "type": "footnotes",
-                  "state": {
-                    "file": "Previo 1.md"
-                  },
-                  "icon": "lucide-file-signature",
-                  "title": "Footnotes"
-                }
-              },
-              {
-                "id": "4931ccdc0a338970",
-                "type": "leaf",
-                "state": {
-                  "type": "all-properties",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-archive",
-                  "title": "All properties"
-                }
-              },
-              {
-                "id": "c6c1a038c9e8dd3b",
-                "type": "leaf",
-                "state": {
-                  "type": "file-properties",
-                  "state": {
-                    "file": "ACADEMIC/6° Semestre/Sistemas Operativos (SO)/10 About/SO - NOTAS DE SESIÓN.md"
-                  },
-                  "icon": "lucide-info",
-                  "title": "File properties for SO - NOTAS DE SESIÓN"
-                }
-              }
-            ]
-          },
-          {
-            "id": "175ad40cb450a89d",
-            "type": "tabs",
-            "dimension": 44.44444444444445,
-            "children": [
-              {
-                "id": "588bf362fb826377",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "New tab"
+                  "title": "Nueva pestaña"
                 }
               }
             ]
@@ -4183,6 +2369,334 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "switcher:Abrir selector rápido": false,
+          "graph:Abrir vista gráfica": false,
+          "canvas:Crear nuevo lienzo": false,
+          "daily-notes:Abrir la nota de hoy": false,
+          "templates:Insertar plantilla": false,
+          "command-palette:Abrir paleta de comandos": false,
+          "workspaces:Gestionar disposiciones de espacio de trabajo": false,
+          "bases:Crear nueva base": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "homepage:Open homepage": false,
+          "obsidian-kanban:Create new board": false,
+          "pomodoro-timer:Toggle timer panel": false,
+          "templater-obsidian:Templater": false,
+          "obsidian-excalidraw-plugin:New drawing": false,
+          "obsidian-advanced-slides:Show Slide Preview": false,
+          "periodic-notes:Open today": false
+        }
+      },
+      "active": "c391a66ac7921926",
+      "mtime": "2026-07-13T12:16:46-06:00",
+      "workspaces-plus:settings-v1": {
+        "explorerFoldState": [
+          "400 TODO",
+          "400 TODO/410 GB",
+          "400 TODO/410 GB/♠Great Binnacle",
+          "400 TODO/410 GB/♠Great Binnacle/Sesiones",
+          "ACADEMIC",
+          "ACADEMIC/Servicio Social",
+          "ACADEMIC/Servicio Social/30 Sesiones"
+        ]
+      }
+    },
+    "CONTA": {
+      "main": {
+        "id": "5324373015726ba8",
+        "type": "split",
+        "children": [
+          {
+            "id": "b6cd260480171a23",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "851b75f284e499e5",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "400 TODO/410 GB/♠Great Binnacle/Sesiones/19-05-2026.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "19-05-2026"
+                }
+              },
+              {
+                "id": "d77c95ffe5d8a2f4",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "400 TODO/440 XCHALONS/ESCALÓN UNO.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "ESCALÓN UNO"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "6e772eb7bc504067",
+        "type": "split",
+        "children": [
+          {
+            "id": "0e63115031220b50",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "8652c2e00cd996be",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": true
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "01df9646113b3b03",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "reincorporar",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              }
+            ],
+            "currentTab": 1
+          },
+          {
+            "id": "a856e70b7bb5c69f",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "8635cb302470e2ae",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              },
+              {
+                "id": "8b4d21f10f9c80d8",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Recent Files"
+                }
+              },
+              {
+                "id": "036e0061a4e77de9",
+                "type": "leaf",
+                "state": {
+                  "type": "timer-view",
+                  "state": {},
+                  "icon": "timer",
+                  "title": "Timer"
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "horizontal",
+        "width": 306.5,
+        "collapsed": true
+      },
+      "right": {
+        "id": "09777d773c243dae",
+        "type": "split",
+        "children": [
+          {
+            "id": "a06a396bdeaa04bb",
+            "type": "tabs",
+            "dimension": 22.222222222222225,
+            "children": [
+              {
+                "id": "1491f040291c2507",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "400 TODO/410 GB/♠Great Binnacle/Sesiones/18-05-2026.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for 18-05-2026"
+                }
+              },
+              {
+                "id": "6020cbd1dcb43896",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links"
+                }
+              },
+              {
+                "id": "a18effb49b60c62c",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "d547e49c958f086f",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline"
+                }
+              },
+              {
+                "id": "f8972c5ebf1edc80",
+                "type": "leaf",
+                "state": {
+                  "type": "footnotes",
+                  "state": {
+                    "file": "Previo 1.md"
+                  },
+                  "icon": "lucide-file-signature",
+                  "title": "Footnotes"
+                }
+              },
+              {
+                "id": "4931ccdc0a338970",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
+                }
+              },
+              {
+                "id": "c6c1a038c9e8dd3b",
+                "type": "leaf",
+                "state": {
+                  "type": "file-properties",
+                  "state": {
+                    "file": "ACADEMIC/6° Semestre/Sistemas Operativos (SO)/10 About/SO - NOTAS DE SESIÓN.md"
+                  },
+                  "icon": "lucide-info",
+                  "title": "File properties for SO - NOTAS DE SESIÓN"
+                }
+              }
+            ]
+          },
+          {
+            "id": "175ad40cb450a89d",
+            "type": "tabs",
+            "dimension": 44.44444444444445,
+            "children": [
+              {
+                "id": "588bf362fb826377",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "New tab"
+                }
+              }
+            ]
+          },
+          {
+            "id": "078c8ece9e289e0e",
+            "type": "tabs",
+            "dimension": 33.333333333333336,
+            "children": [
+              {
+                "id": "697f74f4e340dc50",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {},
+                  "icon": "calendar-with-checkmark",
+                  "title": "Calendar"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 454.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
           "switcher:Open quick switcher": false,
           "graph:Open graph view": false,
           "canvas:Create new canvas": false,
@@ -4201,19 +2715,17 @@
           "periodic-notes:Open today": false
         }
       },
-      "active": "eb71461535e758bd",
-      "mtime": "2026-06-15T11:27:32-06:00",
+      "active": "851b75f284e499e5",
+      "mtime": "2026-05-19T01:00:35-06:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
-          "200 FUERTE",
-          "200 FUERTE/210 1'S",
-          "200 FUERTE/210 1'S/211 FR",
-          "200 FUERTE/210 1'S/211 FR/EL NUEVO CURSO WEB",
-          "200 FUERTE/210 1'S/211 FR/EL NUEVO CURSO WEB/CW26"
+          "400 TODO",
+          "400 TODO/430 KANBANS",
+          "400 TODO/430 KANBANS/431 WX"
         ]
       }
     },
-    "STATHORSES": {
+    "CW26": {
       "main": {
         "id": "5324373015726ba8",
         "type": "split",
@@ -4247,12 +2759,84 @@
                 }
               },
               {
-                "id": "1ce6a7cbaf2a2e98",
+                "id": "3c2f040b3f015ebd",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "CW26 - S3C2.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "CW26 - S3C2"
+                }
+              },
+              {
+                "id": "04f0e9601821380e",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "ACADEMIC/5 ° Semestre/Base de Datos/Lab de Bases de Datos/10 About/Asignatura Lab de Bases de Datos.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Asignatura Lab de Bases de Datos"
+                }
+              },
+              {
+                "id": "488a4aa736f3ec2e",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "ACADEMIC/5 ° Semestre/Base de Datos/40 Legend/Lg - Bases de Datos.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Lg - Bases de Datos"
+                }
+              },
+              {
+                "id": "9659e7dc9b70bfe6",
                 "type": "leaf",
                 "state": {
                   "type": "kanban",
                   "state": {
-                    "file": "200 FUERTE/210 1'S/211 FR/EL NUEVO CURSO WEB/CW26/Kanban - CW26.md",
+                    "file": "200 FUERTE/210 1'S/211 FR/EL NUEVO CURSO WEB/Kanban - CW26.md",
                     "kanbanViewState": {
                       "kanban-plugin": "board",
                       "list-collapse": [
@@ -4260,8 +2844,7 @@
                         null,
                         null,
                         false,
-                        false,
-                        true
+                        false
                       ]
                     }
                   },
@@ -4270,12 +2853,12 @@
                 }
               },
               {
-                "id": "d1d3c1b8005d0f96",
+                "id": "29142affc259dc27",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "400 TODO/410 GB/♠Great Binnacle/Sesiones/09-06-2026.md",
+                    "file": "200 FUERTE/♣Towards/♣T - Programación/-(3)T - Desarrollo web.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": true,
@@ -4290,16 +2873,16 @@
                     }
                   },
                   "icon": "lucide-file",
-                  "title": "09-06-2026"
+                  "title": "-(3)T - Desarrollo web"
                 }
               },
               {
-                "id": "8ca478c934e393b5",
+                "id": "ffaf1881418c96f7",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "200 FUERTE/210 1'S/211 FR/EL NUEVO CURSO WEB/CW26/CW26 - Equipo 4 (StatHorses).md",
+                    "file": "200 FUERTE/210 1'S/211 FR/EL NUEVO CURSO WEB/♣EL NUEVO CURSO WEB.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": true,
@@ -4314,44 +2897,16 @@
                     }
                   },
                   "icon": "lucide-file",
-                  "title": "CW26 - Equipo 4 (StatHorses)"
+                  "title": "♣EL NUEVO CURSO WEB"
                 }
               },
               {
-                "id": "e7d3703f42884eab",
-                "type": "leaf",
-                "state": {
-                  "type": "kanban",
-                  "state": {
-                    "file": "200 FUERTE/210 1'S/211 FR/EL NUEVO CURSO WEB/CW26/Kanban - StatHorses.md",
-                    "kanbanViewState": {
-                      "kanban-plugin": "board",
-                      "list-collapse": [
-                        false,
-                        null,
-                        null,
-                        null,
-                        false,
-                        false,
-                        false,
-                        false,
-                        false,
-                        false,
-                        false
-                      ]
-                    }
-                  },
-                  "icon": "lucide-trello",
-                  "title": "Kanban - StatHorses"
-                }
-              },
-              {
-                "id": "03e2880926aedb4a",
+                "id": "03b886cf270d80d8",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "200 FUERTE/210 1'S/211 FR/EL NUEVO CURSO WEB/CW26/CW26.STATHORSES - Entendiendo ramas y archivos.md",
+                    "file": "ACADEMIC/6° Semestre/Sistemas Operativos (SO)/40 Legend/Lg - Sistemas Operativos.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": true,
@@ -4366,11 +2921,11 @@
                     }
                   },
                   "icon": "lucide-file",
-                  "title": "CW26.STATHORSES - Entendiendo ramas y archivos"
+                  "title": "Lg - Sistemas Operativos"
                 }
               }
             ],
-            "currentTab": 5
+            "currentTab": 6
           }
         ],
         "direction": "vertical"
@@ -4402,7 +2957,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "Pasted image 20260603062608",
+                    "query": "reincorporar",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -4413,7 +2968,8 @@
                   "title": "Search"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "a856e70b7bb5c69f",
@@ -4472,7 +3028,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "200 FUERTE/210 1'S/211 FR/EL NUEVO CURSO WEB/CW26/DECHTECH.NS - Jueves {11-06-2026}.md",
+                    "file": "200 FUERTE/210 1'S/211 FR/EL NUEVO CURSO WEB/CURSO WEB 2026.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -4482,7 +3038,7 @@
                     "unlinkedCollapsed": true
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for DECHTECH.NS - Jueves {11-06-2026}"
+                  "title": "Backlinks for CURSO WEB 2026"
                 }
               },
               {
@@ -4626,407 +3182,16 @@
           "periodic-notes:Open today": false
         }
       },
-      "active": "03e2880926aedb4a",
-      "mtime": "2026-06-13T03:22:54-06:00",
-      "workspaces-plus:settings-v1": {
-        "explorerFoldState": []
-      }
-    },
-    "CFI": {
-      "main": {
-        "id": "5324373015726ba8",
-        "type": "split",
-        "children": [
-          {
-            "id": "b6cd260480171a23",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "4fe9d904e14c4f1b",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "200 FUERTE/♣CURSOS FI/CURSOS FI.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "CURSOS FI"
-                }
-              },
-              {
-                "id": "ef95ec69400ad783",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "200 FUERTE/♣CURSOS FI/Verano 2026/CFI Cursos FI Verano 2026.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "CFI Cursos FI Verano 2026"
-                }
-              },
-              {
-                "id": "70bb0fd08b4b89b0",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "200 FUERTE/♣CURSOS FI/Verano 2026/Cursos FI Verano 2026 - Álgebra.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Cursos FI Verano 2026 - Álgebra"
-                }
-              }
-            ],
-            "currentTab": 2
-          },
-          {
-            "id": "a561b27218f0cf5f",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "e7a71935387a5639",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "800 TUNEL/INSTRUCTOR CURSOS FI 2025 Verano.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "INSTRUCTOR CURSOS FI 2025 Verano"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "6e772eb7bc504067",
-        "type": "split",
-        "children": [
-          {
-            "id": "0e63115031220b50",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "8652c2e00cd996be",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical",
-                    "autoReveal": true
-                  },
-                  "icon": "lucide-folder-closed",
-                  "title": "Files"
-                }
-              },
-              {
-                "id": "01df9646113b3b03",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "d60fyh ",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical"
-                  },
-                  "icon": "lucide-search",
-                  "title": "Search"
-                }
-              }
-            ],
-            "currentTab": 1
-          },
-          {
-            "id": "a856e70b7bb5c69f",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "8635cb302470e2ae",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {},
-                  "icon": "lucide-bookmark",
-                  "title": "Bookmarks"
-                }
-              },
-              {
-                "id": "8b4d21f10f9c80d8",
-                "type": "leaf",
-                "state": {
-                  "type": "recent-files",
-                  "state": {},
-                  "icon": "clock",
-                  "title": "Recent Files"
-                }
-              },
-              {
-                "id": "036e0061a4e77de9",
-                "type": "leaf",
-                "state": {
-                  "type": "timer-view",
-                  "state": {},
-                  "icon": "timer",
-                  "title": "Timer"
-                }
-              }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "horizontal",
-        "width": 306.5,
-        "collapsed": true
-      },
-      "right": {
-        "id": "09777d773c243dae",
-        "type": "split",
-        "children": [
-          {
-            "id": "a06a396bdeaa04bb",
-            "type": "tabs",
-            "dimension": 22.222222222222225,
-            "children": [
-              {
-                "id": "1491f040291c2507",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "200 FUERTE/♣CURSOS FI/Verano 2026/Cursos FI Verano 2026 - Álgebra.md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-coming-in",
-                  "title": "Backlinks for Cursos FI Verano 2026 - Álgebra"
-                }
-              },
-              {
-                "id": "6020cbd1dcb43896",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-going-out",
-                  "title": "Outgoing links"
-                }
-              },
-              {
-                "id": "a18effb49b60c62c",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-tags",
-                  "title": "Tags"
-                }
-              },
-              {
-                "id": "d547e49c958f086f",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "followCursor": false,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-list",
-                  "title": "Outline"
-                }
-              },
-              {
-                "id": "f8972c5ebf1edc80",
-                "type": "leaf",
-                "state": {
-                  "type": "footnotes",
-                  "state": {
-                    "file": "Previo 1.md"
-                  },
-                  "icon": "lucide-file-signature",
-                  "title": "Footnotes"
-                }
-              },
-              {
-                "id": "4931ccdc0a338970",
-                "type": "leaf",
-                "state": {
-                  "type": "all-properties",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-archive",
-                  "title": "All properties"
-                }
-              },
-              {
-                "id": "c6c1a038c9e8dd3b",
-                "type": "leaf",
-                "state": {
-                  "type": "file-properties",
-                  "state": {
-                    "file": "ACADEMIC/6° Semestre/Sistemas Operativos (SO)/10 About/SO - NOTAS DE SESIÓN.md"
-                  },
-                  "icon": "lucide-info",
-                  "title": "File properties for SO - NOTAS DE SESIÓN"
-                }
-              }
-            ]
-          },
-          {
-            "id": "175ad40cb450a89d",
-            "type": "tabs",
-            "dimension": 44.44444444444445,
-            "children": [
-              {
-                "id": "588bf362fb826377",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "New tab"
-                }
-              }
-            ]
-          },
-          {
-            "id": "078c8ece9e289e0e",
-            "type": "tabs",
-            "dimension": 33.333333333333336,
-            "children": [
-              {
-                "id": "697f74f4e340dc50",
-                "type": "leaf",
-                "state": {
-                  "type": "calendar",
-                  "state": {},
-                  "icon": "calendar-with-checkmark",
-                  "title": "Calendar"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 454.5,
-        "collapsed": true
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "switcher:Open quick switcher": false,
-          "graph:Open graph view": false,
-          "canvas:Create new canvas": false,
-          "daily-notes:Open today's daily note": false,
-          "templates:Insert template": false,
-          "command-palette:Open command palette": false,
-          "bases:Create new base": false,
-          "table-editor-obsidian:Advanced Tables Toolbar": false,
-          "homepage:Open homepage": false,
-          "obsidian-kanban:Create new board": false,
-          "pomodoro-timer:Toggle timer panel": false,
-          "templater-obsidian:Templater": false,
-          "obsidian-excalidraw-plugin:New drawing": false,
-          "obsidian-advanced-slides:Show Slide Preview": false,
-          "workspaces:Manage workspace layouts": false,
-          "periodic-notes:Open today": false
-        }
-      },
-      "active": "70bb0fd08b4b89b0",
-      "mtime": "2026-06-28T05:18:05-06:00",
+      "active": "ffaf1881418c96f7",
+      "mtime": "2026-06-01T10:59:56-06:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
-          "200 FUERTE",
-          "200 FUERTE/♣CURSOS FI",
-          "200 FUERTE/♣CURSOS FI/Enero 2026 (Invierno)",
-          "200 FUERTE/♣CURSOS FI/Verano 2026",
-          "200 FUERTE/210 1'S",
-          "200 FUERTE/210 1'S/211 FR",
-          "200 FUERTE/210 1'S/211 FR/EL NUEVO CURSO WEB",
-          "200 FUERTE/210 1'S/211 FR/EL NUEVO CURSO WEB/CW26",
-          "200 FUERTE/210 1'S/212 TProg",
-          "201 CFI_E2026",
-          "202 CFI_E26_CI",
-          "202 CFI_E26_CI/Anexos",
-          "203 CFI_V26_GA",
-          "400 TODO",
-          "400 TODO/410 GB",
-          "400 TODO/410 GB/♠Great Binnacle",
-          "400 TODO/410 GB/♠Great Binnacle/Sesiones",
-          "500 PROC",
-          "500 PROC/520 DET"
+          "600 CALENDAR",
+          "600 CALENDAR/Anexos",
+          "Anexos"
         ]
       }
     }
   },
-  "active": "DECHTECH"
+  "active": "SERVICIO"
 }

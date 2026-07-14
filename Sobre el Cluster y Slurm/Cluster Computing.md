@@ -21,7 +21,7 @@ Dentro de la arquitectura de un clúster, interactuamos principalmente con dos t
 > - Esparce el trabajo hecho a lo largo de muchas CPUs que tiene el sistema
 > - No se maneja cada equipo individualmente, sino que uno (el máster) delega las tareas a realizar
  
-![[Arquitectura del Clúster del InSAR lab]]
+![[Arquitectura del Cluster del InSAR lab]]
 
 ## Job Scheduler
 En un entorno como nuestro clúster, donde varios miembros del laboratorio necesitan realizar simulaciones o procesar datos al mismo tiempo, enviar todas las tareas de forma directa colapsaría el sistema. Aquí es donde entra en juego la figura del **job scheduler** o planificador de trabajos.
@@ -29,4 +29,4 @@ En un entorno como nuestro clúster, donde varios miembros del laboratorio neces
 Se puede pensar en el planificador como el coordinador central de los recursos. Es un software especializado que recibe las solicitudes de trabajo de todos los usuarios, revisa qué recursos del hardware están libres en ese momento (==cuántos núcleos, cuánta memoria, si la GPU está en uso==) y organiza una **fila de espera ordenada**. Su propósito principal es asegurar que cada proceso reciba lo que necesita para ejecutarse correctamente, *evitando que las tareas de distintos usuarios interfieran entre sí y garantizando que el clúster opere a su máxima capacidad sin sobrecargarse.*
 
 > [!info]
-> InSAR lab utiliza el job scheduler conocido como [[Qué es Slurm]]
+> InSAR lab utiliza el job scheduler conocido como [[Que es Slurm]]

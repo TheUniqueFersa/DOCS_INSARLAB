@@ -1,7 +1,11 @@
-## Sobre la conexión
+---
+title: Lógica de trabajo en insarlab
+---
+
+## Sbre la conexión
 Existen 2 equipos primordiales
 - *Equipo local* (tu computadora personal)
-- Equipo remoto (*[[Arquitectura del Clúster del InSAR lab|Cluster]]*)
+- Equipo remoto (*[[Arquitectura del Cluster del InSAR lab|Cluster]]*)
 
 Desde tu *equipo local* tienes que establecer una conexión al cluster mediante [[el protocolo SSH]]. Esto permite que, mediante la consola de tu computadora puedas realizar trabajo de [[Cluster Computing]] usando todo el hardware disponible en el cluster del laboratorio.
 

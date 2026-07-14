@@ -1,5 +1,9 @@
+---
+title: Conexión al cluster
+---
+
 > [!summary]
-> Una vez hecho todos los pasos de [[Creación de Usuario]], se podrá establecer la conexión con el cluster
+> Una vez hecho todos los pasos de [[Creacion de Usuario]], se podrá establecer la conexión con el cluster
 
 
 > [!example] Tomando como ejemplo que el archivo `~/.ssh/config` se vea así:
@@ -9,6 +13,8 @@
 > 	User falcon
 > 	IdentityFile ~/.ssh/insar_key
 > ```
+
+^a045be
 
 El comando para ingresar al cluster desde tu computadora personal será:
 ```bash
@@ -26,4 +32,4 @@ Al momento de ingresar, el prompt de la terminal se verá algo así:
 > [!success]
 > Una vez hayas ingresado[^1], ya podrás empezar a [[Uso del Cluster|enlistar tus tareas al Clúster]]
 
-[^1]: Recuerda la [[Lógica de trabajo en insarlab#Sobre el almacenamiento|lógica de tus carpetas]]
+[^1]: Recuerda la [[Logica de trabajo en insarlab#Sobre el almacenamiento|lógica de tus carpetas]]

@@ -1,3 +1,7 @@
+---
+title: Arquitectura del Clúster del InSAR lab
+---
+
 > [!info]
 > El sistema operativo del Cluster es: `Rocky Linux`
 
@@ -25,7 +29,12 @@ Para organizar de manera inteligente el acceso a estos recursos, el InSAR lab ut
 
 
 
-
+# Estructura usando Slurm
+> [!done]
+> Se recomienda revisar primero el material:
+> - [[Uso del Cluster]]
+> - [[Manejo de Slurm]]
+> antes de leer la siguiente configuración.
 
 Este software es el encargado de administrar el flujo de tareas, agrupando los nodos en colas o secciones lógicas conocidas como _particiones_.
 
