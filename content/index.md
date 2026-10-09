@@ -13,7 +13,10 @@ title: Bienvenid@ a los manuales del InSAR lab
 
 
 ## Conoce nuestros manuales:
+## Sobre el Cluster y Slurm
 
-| Manual                     | Página de inicio                                  |
-| -------------------------- | ------------------------------------------------- |
-| `Sobre el Cluster y Slurm` | [[Manual sobre el Cluster del inSAR lab y Slurm]] |
+| Manual                       | Página de inicio                                  | ¿Para quién?                              |
+| ---------------------------- | ------------------------------------------------- | ----------------------------------------- |
+| `Sobre el Cluster y Slurm`   | [[Manual sobre el Cluster del InSAR lab y Slurm]] | Todo el lab                               |
+|                              | [[Guia rapida - Tu primer trabajo en Slurm]]      | Quien quiere encolar su primer trabajo ya |
+| `Administración del clúster` | [[Manual del Administrador]]                      | Equipo de cómputo                         |

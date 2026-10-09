@@ -2,7 +2,7 @@
 title: ¿Qué es Slurm?
 ---
 
-Dentro de la variedad de planificadores que existen, InSAR lab utiliza **Slurm** (**S**imple **L**inux **U**tility for **R**esource **M**anagement). De acuerdo con su ==documentación oficial==[^1], Slurm es un sistema de gestión de cargas de trabajo (_workload manager_) de código abierto, diseñado para ser tolerante a fallos y altamente escalable. Hoy en día es el estándar de la industria, utilizado por gran parte de los centros de supercómputo más grandes del mundo.
+Dentro de la variedad de planificadores que existen, InSAR lab utiliza **Slurm** (**S**imple **L**inux **U**tility for **R**esource **M**anagement). De acuerdo con su documentación oficial[^1], Slurm es un sistema de gestión de cargas de trabajo (_workload manager_) de código abierto, diseñado para ser tolerante a fallos y altamente escalable. Hoy en día es el estándar de la industria, utilizado por gran parte de los centros de supercómputo más grandes del mundo.
 
 Slurm se encarga de tres tareas fundamentales dentro de nuestra arquitectura:
 
@@ -11,5 +11,3 @@ Slurm se encarga de tres tareas fundamentales dentro de nuestra arquitectura:
 - **Arbitraje de la cola:** Resuelve los conflictos de demanda administrando inteligentemente la fila de trabajos pendientes. Si hay más trabajo que recursos disponibles, Slurm decide qué tarea es la siguiente en ejecutarse basándose en reglas de prioridad y disponibilidad.
 
 Gracias a esta herramienta, como usuario del InSAR lab no tienes que preocuparte por conectarte nodo por nodo para ver cuál está desocupado. Simplemente empaquetas tu trabajo, le describes a Slurm qué recursos necesitas, y el sistema se encarga de acomodarlo y ejecutarlo en el momento ideal.
-
-[^1]: [Documentación oficial de Slurm](https://slurm.schedmd.com/)
